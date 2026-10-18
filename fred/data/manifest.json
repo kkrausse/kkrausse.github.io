@@ -1,0 +1,279 @@
+{
+ "version": 1,
+ "built_at": "2026-10-18T20:57:00.519Z",
+ "subset": {
+  "kind": "curated",
+  "top": 5000,
+  "include_added": 45,
+  "allowed_copyright": [
+   "public domain: citation requested",
+   "copyrighted: citation required"
+  ],
+  "source_built_at": "2026-10-18T17:00:52.769Z"
+ },
+ "series_file": "series-d1151f0c3d2507f1.parquet",
+ "releases_file": "releases-a3faf5c9d9dd86eb.json",
+ "search_dir": "search/aa2616b6fe1ddda5",
+ "notes_dir": "notes/feada45afa2ffd13",
+ "n_releases": 60,
+ "n_series": 5045,
+ "n_obs": 2975143,
+ "files": [
+  {
+   "path": "series-d1151f0c3d2507f1.parquet",
+   "bytes": 131056
+  },
+  {
+   "path": "releases-a3faf5c9d9dd86eb.json",
+   "bytes": 39175
+  },
+  {
+   "path": "obs/r9-1f5bca2a55b1e1ce.parquet",
+   "bytes": 2620
+  },
+  {
+   "path": "obs/r10-5aa7bcc007850293.parquet",
+   "bytes": 264275
+  },
+  {
+   "path": "obs/r13-aba69003f3d1c00f.parquet",
+   "bytes": 1691366
+  },
+  {
+   "path": "obs/r14-1283210cd51a5ec8.parquet",
+   "bytes": 40687
+  },
+  {
+   "path": "obs/r17-a162c88aa1c0da99.parquet",
+   "bytes": 191302
+  },
+  {
+   "path": "obs/r18-aa35581e128d0a9b.parquet",
+   "bytes": 513113
+  },
+  {
+   "path": "obs/r20-c679a0de73606e37.parquet",
+   "bytes": 13777
+  },
+  {
+   "path": "obs/r21-301d43e8fc65265b.parquet",
+   "bytes": 21672
+  },
+  {
+   "path": "obs/r22-10ca4bc7d59103b2.parquet",
+   "bytes": 372818
+  },
+  {
+   "path": "obs/r25-c20d6706a89afd35.parquet",
+   "bytes": 7200
+  },
+  {
+   "path": "obs/r27-650eeae91bb61776.parquet",
+   "bytes": 46517
+  },
+  {
+   "path": "obs/r46-d64d1218c98bbdb2.parquet",
+   "bytes": 171533
+  },
+  {
+   "path": "obs/r47-0b07dd66a5aa995b.parquet",
+   "bytes": 123440
+  },
+  {
+   "path": "obs/r50-d4ed5679e567ca43.parquet",
+   "bytes": 1191025
+  },
+  {
+   "path": "obs/r52-f6e19854bd468b16.parquet",
+   "bytes": 785759
+  },
+  {
+   "path": "obs/r53-1c40fa7b72740d58.parquet",
+   "bytes": 853278
+  },
+  {
+   "path": "obs/r54-95c7f6eae4619c03.parquet",
+   "bytes": 243155
+  },
+  {
+   "path": "obs/r63-9552b3d03488885e.parquet",
+   "bytes": 5184
+  },
+  {
+   "path": "obs/r80-911325c169051215.parquet",
+   "bytes": 2122
+  },
+  {
+   "path": "obs/r81-1cc02e85123ea3bc.parquet",
+   "bytes": 1375
+  },
+  {
+   "path": "obs/r91-cfafb564fad286fb.parquet",
+   "bytes": 4611
+  },
+  {
+   "path": "obs/r93-8bf61012731b3e25.parquet",
+   "bytes": 39545
+  },
+  {
+   "path": "obs/r95-e87163643614bb5c.parquet",
+   "bytes": 5117
+  },
+  {
+   "path": "obs/r97-6c39508c0eaf7e3e.parquet",
+   "bytes": 21077
+  },
+  {
+   "path": "obs/r99-3aa0d498f45cc7a2.parquet",
+   "bytes": 6840
+  },
+  {
+   "path": "obs/r109-12efbdd8c387ebc8.parquet",
+   "bytes": 99076
+  },
+  {
+   "path": "obs/r110-762319eb11254b86.parquet",
+   "bytes": 448054
+  },
+  {
+   "path": "obs/r112-d1b7d35059b5e5ac.parquet",
+   "bytes": 261124
+  },
+  {
+   "path": "obs/r116-f3f12ae432f6f061.parquet",
+   "bytes": 260651
+  },
+  {
+   "path": "obs/r171-dc5777042c1a6288.parquet",
+   "bytes": 4250
+  },
+  {
+   "path": "obs/r180-38f152dd925401c3.parquet",
+   "bytes": 38535
+  },
+  {
+   "path": "obs/r190-367d68ae9c387f2d.parquet",
+   "bytes": 16907
+  },
+  {
+   "path": "obs/r192-acb847f393cd3165.parquet",
+   "bytes": 2036
+  },
+  {
+   "path": "obs/r193-beb44beda8528436.parquet",
+   "bytes": 3524
+  },
+  {
+   "path": "obs/r200-68bf660f6e1c98cd.parquet",
+   "bytes": 47614
+  },
+  {
+   "path": "obs/r205-7a8631c11a54a8f7.parquet",
+   "bytes": 4037791
+  },
+  {
+   "path": "obs/r212-f17e7e5fa3a503e2.parquet",
+   "bytes": 53903
+  },
+  {
+   "path": "obs/r231-bf9de5ebef72bb11.parquet",
+   "bytes": 1417
+  },
+  {
+   "path": "obs/r234-c3da88b3df1c1167.parquet",
+   "bytes": 1343
+  },
+  {
+   "path": "obs/r239-0b7716a177c6968b.parquet",
+   "bytes": 110847
+  },
+  {
+   "path": "obs/r249-ab6eda81d332dac5.parquet",
+   "bytes": 880
+  },
+  {
+   "path": "obs/r267-f97e58240a523a0f.parquet",
+   "bytes": 1917
+  },
+  {
+   "path": "obs/r268-7d3725dee6e4b169.parquet",
+   "bytes": 2198
+  },
+  {
+   "path": "obs/r282-21186c88c18458ec.parquet",
+   "bytes": 11580
+  },
+  {
+   "path": "obs/r296-ee9bf7939213c33b.parquet",
+   "bytes": 2370
+  },
+  {
+   "path": "obs/r301-414e16efb8092c8e.parquet",
+   "bytes": 6957
+  },
+  {
+   "path": "obs/r304-feb58ec9fcf87b8d.parquet",
+   "bytes": 110244
+  },
+  {
+   "path": "obs/r313-e5cf48b51e62be95.parquet",
+   "bytes": 146295
+  },
+  {
+   "path": "obs/r315-6a29e0612679cccf.parquet",
+   "bytes": 37612
+  },
+  {
+   "path": "obs/r316-eb36fd2dd7e823cd.parquet",
+   "bytes": 26182
+  },
+  {
+   "path": "obs/r323-a1ea8f8d349516bc.parquet",
+   "bytes": 6109
+  },
+  {
+   "path": "obs/r345-6535a37876a5427f.parquet",
+   "bytes": 14506
+  },
+  {
+   "path": "obs/r351-86b22ece45334a44.parquet",
+   "bytes": 140818
+  },
+  {
+   "path": "obs/r378-45e47644cfd95542.parquet",
+   "bytes": 24162
+  },
+  {
+   "path": "obs/r379-eb60cff2d9c49dbf.parquet",
+   "bytes": 28076
+  },
+  {
+   "path": "obs/r445-c4a6cb8b162c5750.parquet",
+   "bytes": 8918
+  },
+  {
+   "path": "obs/r446-a751edb0e801f347.parquet",
+   "bytes": 35438
+  },
+  {
+   "path": "obs/r456-d658a89b7398f9ce.parquet",
+   "bytes": 5273
+  },
+  {
+   "path": "obs/r471-c5f6bd8d3cb9c4ca.parquet",
+   "bytes": 4142
+  },
+  {
+   "path": "obs/r488-7cac6f370ad373b3.parquet",
+   "bytes": 72659
+  },
+  {
+   "path": "search/aa2616b6fe1ddda5",
+   "bytes": 264822
+  },
+  {
+   "path": "notes/feada45afa2ffd13",
+   "bytes": 116949
+  }
+ ]
+}

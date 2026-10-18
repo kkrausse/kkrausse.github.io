@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>timegrapher</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        color: #17202a;
+        background: #f7f9fc;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: #f7f9fc;
+      }
+
+      main {
+        display: grid;
+        grid-template-rows: auto 1fr;
+        min-height: 100vh;
+      }
+
+      header {
+        display: grid;
+        grid-template-columns: auto 1fr auto auto auto;
+        gap: 12px 16px;
+        align-items: start;
+        padding: 14px 18px;
+        border-bottom: 1px solid #d8dee8;
+        background: #ffffff;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 650;
+      }
+
+      button,
+      input[type="range"],
+      output {
+        min-height: 34px;
+        font: inherit;
+      }
+
+      button {
+        border: 1px solid #aeb8c6;
+        border-radius: 6px;
+        background: #ffffff;
+        color: #17202a;
+        padding: 0 14px;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      button[data-running="true"] {
+        border-color: #a61e4d;
+        background: #fff0f6;
+      }
+
+      label {
+        display: inline-flex;
+        gap: 6px;
+        align-items: center;
+        font-size: 14px;
+      }
+
+      .capture-control {
+        display: flex;
+        grid-column: 2;
+        gap: 12px;
+        align-items: center;
+        min-width: 0;
+      }
+
+      .period-control {
+        grid-column: 3;
+        gap: 8px;
+      }
+
+      .lift-angle-control {
+        grid-column: 4;
+      }
+
+      .unlock-threshold-control {
+        grid-column: 5;
+      }
+
+      .period-control input {
+        width: 160px;
+      }
+
+      .lift-angle-control input,
+      .unlock-threshold-control input {
+        width: 160px;
+      }
+
+      .lift-angle-value,
+      .unlock-threshold-value {
+        width: 48px;
+        min-width: 48px;
+        color: #4a5564;
+        text-align: right;
+        white-space: nowrap;
+      }
+
+      .period-value {
+        width: 48px;
+        min-width: 48px;
+        color: #4a5564;
+        text-align: right;
+        white-space: nowrap;
+      }
+
+      .stats-wrap {
+        max-width: 100%;
+        overflow-x: auto;
+      }
+
+      header .stats-wrap {
+        grid-column: 1 / -1;
+        grid-row: 2;
+      }
+
+      .stats-table {
+        border-collapse: collapse;
+        font-size: 13px;
+        white-space: nowrap;
+        background: #ffffff;
+      }
+
+      .stats-table th,
+      .stats-table td {
+        padding: 3px 8px;
+        border: 1px solid #d8dee8;
+        text-align: left;
+      }
+
+      .stats-table th {
+        font-weight: 500;
+        color: #4a5564;
+      }
+
+      #status {
+        min-width: 190px;
+        color: #4a5564;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .charts {
+        display: grid;
+        gap: 12px;
+        padding: 12px 12px 18px;
+      }
+
+      .chart-block {
+        background: #ffffff;
+        border: 1px solid #d8dee8;
+        border-radius: 6px;
+        overflow: hidden;
+      }
+
+      .chart-block-wide {
+        overflow-x: auto;
+      }
+
+      .chart-title {
+        margin: 0;
+        padding: 12px 18px 0;
+        font-size: 14px;
+        font-weight: 650;
+      }
+
+      #tick-tock-peak-chart,
+      #tracking-band-fold-chart,
+      #fold-chart,
+      #feature-chart {
+        width: 100%;
+      }
+
+      #tick-tock-peak-chart,
+      #tracking-band-fold-chart {
+        min-height: 320px;
+      }
+
+      #tick-tock-peak-chart {
+        min-width: 1100px;
+      }
+
+      #fold-chart {
+        min-height: 680px;
+        min-width: 720px;
+      }
+
+      #feature-chart {
+        min-height: 320px;
+      }
+
+      .message {
+        padding: 18px;
+        color: #6b7280;
+      }
+
+      .diagnostics {
+        padding: 18px;
+        background: #ffffff;
+        border-top: 1px solid #d8dee8;
+      }
+
+      .diagnostics h2 {
+        margin: 0 0 10px;
+        font-size: 14px;
+        font-weight: 650;
+      }
+
+      .diagnostics-actions {
+        margin-top: 10px;
+      }
+
+      @media (min-width: 741px) and (max-width: 1200px) {
+        header {
+          grid-template-columns: auto 1fr auto auto;
+        }
+
+        .unlock-threshold-control {
+          grid-column: 3 / 5;
+          grid-row: 2;
+        }
+
+        header .stats-wrap {
+          grid-row: 3;
+        }
+      }
+
+      @media (max-width: 740px) {
+        main {
+          min-height: 100svh;
+        }
+
+        header {
+          grid-template-columns: 1fr;
+          gap: 10px;
+          padding: 12px;
+        }
+
+        h1 {
+          font-size: 17px;
+        }
+
+        button {
+          min-height: 40px;
+        }
+
+        .capture-control {
+          display: grid;
+          grid-column: auto;
+          grid-template-columns: 1fr;
+          gap: 8px;
+        }
+
+        #status {
+          min-width: 0;
+          white-space: normal;
+        }
+
+        header .stats-wrap {
+          grid-row: auto;
+          overflow-x: visible;
+        }
+
+        header .stats-table,
+        header .stats-table tbody {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 8px;
+          width: 100%;
+        }
+
+        header .stats-table tr {
+          display: grid;
+          gap: 2px;
+          padding: 8px;
+          border: 1px solid #d8dee8;
+          border-radius: 6px;
+        }
+
+        header .stats-table th,
+        header .stats-table td {
+          display: block;
+          padding: 0;
+          border: 0;
+        }
+
+        .period-control {
+          width: 100%;
+        }
+
+        .period-control,
+        .lift-angle-control,
+        .unlock-threshold-control {
+          display: grid;
+          grid-column: auto;
+          grid-template-columns: 72px minmax(0, 1fr) 52px;
+          gap: 8px;
+        }
+
+        .period-control input,
+        .lift-angle-control input,
+        .unlock-threshold-control input {
+          flex: 1;
+          width: auto;
+          min-width: 0;
+        }
+
+        .charts {
+          gap: 10px;
+          padding: 10px;
+        }
+
+        .chart-title {
+          padding: 10px 12px 0;
+        }
+
+        #tick-tock-peak-chart {
+          min-width: 900px;
+        }
+
+        #fold-chart {
+          min-height: 520px;
+          min-width: 620px;
+        }
+
+        #tick-tock-peak-chart,
+        #tracking-band-fold-chart,
+        #feature-chart {
+          min-height: 260px;
+        }
+
+        .diagnostics {
+          padding: 12px;
+        }
+      }
+
+      @media (max-width: 420px) {
+        header .stats-table,
+        header .stats-table tbody {
+          grid-template-columns: 1fr 1fr;
+        }
+
+        .period-control,
+        .lift-angle-control,
+        .unlock-threshold-control {
+          grid-template-columns: 1fr 52px;
+        }
+
+        .period-control input,
+        .lift-angle-control input,
+        .unlock-threshold-control input {
+          grid-column: 1 / -1;
+          grid-row: 2;
+        }
+
+        .period-value,
+        .lift-angle-value,
+        .unlock-threshold-value {
+          justify-self: end;
+        }
+      }
+    </style>
+  <script type="module" crossorigin src="./chunk-75cz8xme.js"></script><link rel="stylesheet" href="/theme.css" data-site-theme>
+</head>
+  <body>
+    <main>
+      <header>
+        <h1>timegrapher</h1>
+        <div class="capture-control">
+          <button id="toggle" type="button" data-running="false">Start microphone</button>
+          <span id="status">Idle</span>
+        </div>
+        <div class="stats-wrap">
+          <table class="stats-table">
+            <tbody>
+              <tr>
+                <th scope="row">Standard BPH</th>
+                <td><strong id="standard-bph">-</strong></td>
+              </tr>
+              <tr>
+                <th scope="row">s/day</th>
+                <td><strong id="seconds-per-day">-</strong></td>
+              </tr>
+              <tr>
+                <th scope="row">Amplitude</th>
+                <td><strong id="amplitude">-</strong></td>
+              </tr>
+              <tr>
+                <th scope="row">s/day error</th>
+                <td><strong id="error-seconds-per-day">-</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <label class="period-control">
+          Period
+          <input id="period" type="range" min="2" max="30" step="1" />
+          <output id="period-value" class="period-value" for="period">-</output>
+        </label>
+        <label class="lift-angle-control">
+          Lift angle
+          <input id="lift-angle" type="range" min="20" max="90" step="1" />
+          <output id="lift-angle-value" class="lift-angle-value" for="lift-angle">-</output>
+        </label>
+        <label class="unlock-threshold-control" title="Percentile of smoothed fold amplitude. Higher values ignore smaller early bumps and move the detected unlock closer to the main peak.">
+          Unlock cutoff
+          <input id="unlock-threshold" type="range" min="50" max="99" step="1" />
+          <output id="unlock-threshold-value" class="unlock-threshold-value" for="unlock-threshold">-</output>
+        </label>
+      </header>
+      <section class="charts">
+        <section class="chart-block chart-block-wide" aria-label="Beat feature detail">
+          <h2 class="chart-title">Beat feature detail</h2>
+          <div id="tick-tock-peak-chart">
+            <div class="message">Start the microphone to see the beat feature detail.</div>
+          </div>
+        </section>
+        <section class="chart-block" aria-label="Tracked BPH folded amplitude by frequency bucket">
+          <h2 class="chart-title">Tracked fold by bucket</h2>
+          <div id="tracking-band-fold-chart">
+            <div class="message">Start the microphone to build the tracked fold buckets.</div>
+          </div>
+        </section>
+        <section class="chart-block chart-block-wide" aria-label="Live folded feature heatmap">
+          <h2 class="chart-title">Fold heatmap</h2>
+          <div id="fold-chart">
+            <div class="message">Start the microphone to build the live fold heatmap.</div>
+          </div>
+        </section>
+        <section class="chart-block" aria-label="Live feature stream">
+          <h2 class="chart-title">Feature stream</h2>
+          <div id="feature-chart">
+            <div class="message">Start the microphone to see per-band feature amplitude.</div>
+          </div>
+        </section>
+      </section>
+      <section class="diagnostics" aria-label="Diagnostics">
+        <h2>Diagnostics</h2>
+        <div class="stats-wrap">
+          <table class="stats-table">
+            <tbody>
+              <tr>
+                <th scope="row">Measured BPH</th>
+                <td><strong id="measured-bph">-</strong></td>
+              </tr>
+              <tr>
+                <th scope="row">Feature rate</th>
+                <td><strong id="feature-rate">-</strong></td>
+              </tr>
+              <tr>
+                <th scope="row">Sample rate</th>
+                <td><strong id="sample-rate">-</strong></td>
+              </tr>
+              <tr>
+                <th scope="row">Bands</th>
+                <td><strong id="bands">-</strong></td>
+              </tr>
+              <tr>
+                <th scope="row">Analysis</th>
+                <td><strong id="analysis-ms">-</strong></td>
+              </tr>
+              <tr>
+                <th scope="row">Worker buffer</th>
+                <td><strong id="frames-buffered">-</strong></td>
+              </tr>
+              <tr>
+                <th scope="row">BPH error</th>
+                <td><strong id="confidence-bph">-</strong></td>
+              </tr>
+              <tr>
+                <th scope="row">Unlock-drop</th>
+                <td><strong id="unlock-drop">-</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="stats-wrap">
+          <table class="stats-table">
+            <thead>
+              <tr>
+                <th scope="col">Candidate</th>
+                <th scope="col">Offset</th>
+                <th scope="col">BPH</th>
+                <th scope="col">Score</th>
+                <th scope="col">Δ BPH</th>
+                <th scope="col">s/day</th>
+              </tr>
+            </thead>
+            <tbody id="candidate-rows">
+              <tr>
+                <td colspan="6">-</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="diagnostics-actions">
+          <button id="capture-toggle" type="button">Save capture</button>
+          <button id="raw-capture-toggle" type="button" data-running="false">
+            Record raw WAV
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      window.__TIMEGRAPH_ASSETS__ = {
+        analysisWorker: "./analysis-worker.790e085a0f8c.js",
+        featureWorklet: "./feature-worklet.220675a1c300.js",
+        version: "muiquvzf",
+      };
+    </script>
+    
+  </body>
+</html>

@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "films": [
+    {
+      "slug": "mortgage-lockin",
+      "title": "Mortgage lock-in",
+      "duration": 430.2,
+      "source": {
+        "url": null,
+        "credit": "Written explainer"
+      },
+      "voice": "Synthetic voice (Kokoro am_michael)",
+      "player": "32a73291be",
+      "file": "films/mortgage-lockin.film",
+      "size": 6649157,
+      "page": "mortgage-lockin/"
+    },
+    {
+      "slug": "ai-demand",
+      "title": "AI demand",
+      "duration": 466.4,
+      "source": {
+        "url": "https://youtu.be/mDG_Hx3BSUE",
+        "credit": "Written explainer, after Dylan Patel on Dwarkesh Patel's podcast"
+      },
+      "voice": "Synthetic voice (Kokoro am_michael)",
+      "player": "ddfe58a03a",
+      "file": "films/ai-demand.film",
+      "size": 6230484,
+      "page": "ai-demand/"
+    },
+    {
+      "slug": "antirez-worse-short",
+      "title": "Reverse engineering? There's worse (condensed)",
+      "duration": 356.025,
+      "source": {
+        "url": "https://youtu.be/ZvIgHAmRGUI",
+        "credit": "Salvatore Sanfilippo (antirez), \"Reverse engineering? C'è di peggio\": condensed English translation"
+      },
+      "voice": "Synthetic voice (Kokoro am_michael)",
+      "player": "2ccbe4482f",
+      "file": "films/antirez-worse-short.film",
+      "size": 5056140,
+      "page": "antirez-worse-short/"
+    },
+    {
+      "slug": "antirez-argon-muse",
+      "title": "Gemini 4 Argon and Muse Wonder (condensed)",
+      "duration": 279.35,
+      "source": {
+        "url": "https://youtu.be/sw0iNg6_rXs",
+        "credit": "Salvatore Sanfilippo (antirez), \"Gemini 4 Argon e Muse Wonder\": condensed English translation"
+      },
+      "voice": "Synthetic voice (Kokoro am_michael)",
+      "player": "3a6ed0c586",
+      "file": "films/antirez-argon-muse.film",
+      "size": 4397497,
+      "page": "antirez-argon-muse/"
+    }
+  ]
+}

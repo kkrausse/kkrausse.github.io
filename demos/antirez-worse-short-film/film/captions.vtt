@@ -1,0 +1,398 @@
+WEBVTT
+
+00:00:02.000 --> 00:00:04.480
+Reverse engineering is a real topic.
+
+00:00:04.530 --> 00:00:07.210
+We now have an army of tireless workers
+
+00:00:07.270 --> 00:00:09.440
+who know a ton about everything,
+
+00:00:09.530 --> 00:00:11.260
+low level and high level,
+
+00:00:11.310 --> 00:00:14.750
+and you can point them at how other programs work.
+
+00:00:14.790 --> 00:00:16.810
+You could try to filter that,
+
+00:00:16.850 --> 00:00:20.160
+the way the cyber filters limited security work.
+
+00:00:20.450 --> 00:00:24.260
+But there are open models, and ways around the filters.
+
+00:00:24.320 --> 00:00:26.910
+So let's assume this is here to stay.
+
+00:00:27.200 --> 00:00:29.770
+Now think about the software that
+
+00:00:29.810 --> 00:00:32.290
+made a lot of money in the past.
+
+00:00:32.340 --> 00:00:35.350
+VisiCalc, then Lotus 1-2-3, then Excel,
+
+00:00:35.400 --> 00:00:36.870
+then Google Sheets.
+
+00:00:36.930 --> 00:00:38.640
+Windows copying Apple,
+
+00:00:38.700 --> 00:00:41.400
+Apple copying what it saw at Xerox.
+
+00:00:41.460 --> 00:00:43.840
+One SQL database after another.
+
+00:00:43.910 --> 00:00:47.840
+Was reverse engineering needed to copy those ideas?
+
+00:00:47.890 --> 00:00:48.170
+No.
+
+00:00:48.450 --> 00:00:50.270
+Software is not patentable.
+
+00:00:50.350 --> 00:00:52.870
+That is a problem for doing business,
+
+00:00:52.940 --> 00:00:56.390
+but an enormous advantage for the whole discipline,
+
+00:00:56.470 --> 00:00:58.610
+which innovates at a speed more
+
+00:00:58.650 --> 00:01:00.510
+regulated fields never see.
+
+00:01:00.550 --> 00:01:02.200
+Wherever there is money,
+
+00:01:02.250 --> 00:01:04.870
+someone gets organised and copies you.
+
+00:01:04.900 --> 00:01:07.510
+Language models just democratise that.
+
+00:01:07.800 --> 00:01:10.910
+So the point is not the reverse engineering.
+
+00:01:11.010 --> 00:01:13.090
+The point is reimplementation.
+
+00:01:13.220 --> 00:01:17.080
+A graphic designer who has used Illustrator for years,
+
+00:01:17.130 --> 00:01:20.520
+sitting next to a programmer, a company of two,
+
+00:01:20.550 --> 00:01:23.020
+can now reimagine that product and
+
+00:01:23.050 --> 00:01:25.360
+build it from scratch with LLMs.
+
+00:01:25.650 --> 00:01:29.690
+What is inside this software is not a trade secret.
+
+00:01:29.750 --> 00:01:34.200
+The hidden algorithms that nobody knows are by now zero.
+
+00:01:34.250 --> 00:01:35.710
+We are not in '85.
+
+00:01:36.000 --> 00:01:38.020
+And there is the clean room.
+
+00:01:38.060 --> 00:01:41.370
+You have an LLM turn code into a specification.
+
+00:01:41.480 --> 00:01:44.610
+You delete the logs, start a fresh instance,
+
+00:01:44.680 --> 00:01:47.420
+and reimplement from the specification.
+
+00:01:47.530 --> 00:01:50.390
+Often the documentation alone is enough.
+
+00:01:50.450 --> 00:01:52.820
+You could reimplement Redis under
+
+00:01:52.870 --> 00:01:54.960
+a different licence that way.
+
+00:01:55.250 --> 00:01:58.920
+So I think this topic has been blown out of proportion.
+
+00:01:59.000 --> 00:02:01.640
+It is incredibly cool that these models
+
+00:02:01.680 --> 00:02:04.010
+are so good at reverse engineering,
+
+00:02:04.100 --> 00:02:07.610
+and there are more positive uses than negative ones.
+
+00:02:07.900 --> 00:02:09.300
+When you reimplement,
+
+00:02:09.390 --> 00:02:12.510
+you keep the conventions a user already knows,
+
+00:02:12.560 --> 00:02:15.550
+so they don't feel like a fish out of water,
+
+00:02:15.600 --> 00:02:18.650
+and then you change a lot and make it better.
+
+00:02:18.700 --> 00:02:21.350
+The big companies have lost the ability
+
+00:02:21.410 --> 00:02:23.230
+to turn out great products.
+
+00:02:23.300 --> 00:02:26.110
+Once, every new version was a celebration.
+
+00:02:26.450 --> 00:02:29.190
+Small teams can do that again.
+
+00:02:29.500 --> 00:02:31.080
+But flip the argument.
+
+00:02:31.150 --> 00:02:35.280
+If I can easily reproduce any software I know how to use,
+
+00:02:35.320 --> 00:02:38.040
+is that the end of software companies?
+
+00:02:38.120 --> 00:02:40.350
+The problems there are serious.
+
+00:02:40.410 --> 00:02:42.730
+Fewer companies will make money,
+
+00:02:42.780 --> 00:02:44.850
+so fewer can hire developers.
+
+00:02:44.940 --> 00:02:48.530
+Still, I believe on the whole it ends up positive.
+
+00:02:48.850 --> 00:02:51.700
+Everyone will hold very powerful tools,
+
+00:02:51.750 --> 00:02:55.110
+and can bend them into exactly what they want.
+
+00:02:55.400 --> 00:02:57.020
+What protection is left?
+
+00:02:57.060 --> 00:02:59.780
+The law is similar in America and Europe.
+
+00:02:59.840 --> 00:03:00.700
+Take AutoCAD.
+
+00:03:00.760 --> 00:03:04.180
+Nobody can stop you making a command where you pick
+
+00:03:04.210 --> 00:03:07.280
+two points and the circle passes through them.
+
+00:03:07.320 --> 00:03:10.430
+You can copy the function, and how it operates.
+
+00:03:10.750 --> 00:03:14.450
+Only if the interface becomes too similar, the icons,
+
+00:03:14.490 --> 00:03:16.850
+the layout, can you have problems.
+
+00:03:16.920 --> 00:03:19.920
+And then someone has to sue, with a budget.
+
+00:03:19.970 --> 00:03:21.980
+That works for big companies.
+
+00:03:22.050 --> 00:03:24.500
+For small software it barely works.
+
+00:03:24.800 --> 00:03:27.860
+The precedents are not reassuring either.
+
+00:03:27.910 --> 00:03:29.480
+Lotus versus Borland.
+
+00:03:29.550 --> 00:03:31.240
+Apple versus Microsoft.
+
+00:03:31.330 --> 00:03:34.230
+The spreadsheet was a stroke of genius,
+
+00:03:34.290 --> 00:03:35.880
+a very specific idea,
+
+00:03:35.920 --> 00:03:38.880
+and you would expect it to be protected.
+
+00:03:38.960 --> 00:03:39.820
+It was not.
+
+00:03:39.850 --> 00:03:42.250
+It was replicated endless times.
+
+00:03:42.550 --> 00:03:44.940
+So where is the real protection?
+
+00:03:45.030 --> 00:03:47.790
+In things that are truly specialised.
+
+00:03:47.880 --> 00:03:51.370
+Copying DaVinci Studio is no walk in the park.
+
+00:03:51.410 --> 00:03:55.390
+You get to 70%, and that is fine for almost everyone,
+
+00:03:55.470 --> 00:03:58.780
+but the Hollywood studio still buys DaVinci.
+
+00:03:59.100 --> 00:04:02.060
+And in the business-to-business relationship,
+
+00:04:02.150 --> 00:04:04.390
+because nobody wants to depend on
+
+00:04:04.410 --> 00:04:06.350
+something thrown onto GitHub.
+
+00:04:06.650 --> 00:04:08.460
+Another thing will happen.
+
+00:04:08.510 --> 00:04:11.030
+As some programmers lose their jobs,
+
+00:04:11.070 --> 00:04:13.000
+it may go like the nineties,
+
+00:04:13.070 --> 00:04:15.920
+when we had fewer opportunities and spent
+
+00:04:15.970 --> 00:04:18.400
+our spare time writing open source.
+
+00:04:18.450 --> 00:04:21.020
+When programmers were in huge demand,
+
+00:04:21.070 --> 00:04:23.270
+open source fell off tragically.
+
+00:04:23.600 --> 00:04:26.640
+Maybe now people will say, I've lost my job,
+
+00:04:26.670 --> 00:04:29.740
+I'll start a little company on free software,
+
+00:04:29.810 --> 00:04:32.070
+because keeping it closed doesn't
+
+00:04:32.130 --> 00:04:33.860
+make much sense any more.
+
+00:04:34.150 --> 00:04:37.860
+For sure a lot of commercial value will be destroyed.
+
+00:04:37.940 --> 00:04:40.080
+But we have been through this.
+
+00:04:40.120 --> 00:04:43.620
+Linux, Redis and PHP destroyed a ton of companies.
+
+00:04:43.700 --> 00:04:45.980
+Sun was sunk by open source too.
+
+00:04:46.020 --> 00:04:49.880
+And we came out with an even more flourishing industry.
+
+00:04:50.200 --> 00:04:52.940
+It is not a given that it happens again,
+
+00:04:52.990 --> 00:04:56.200
+because this time the detonation may be bigger.
+
+00:04:56.250 --> 00:04:58.700
+But for those who do truly excellent
+
+00:04:58.770 --> 00:05:00.220
+things there is room.
+
+00:05:00.260 --> 00:05:03.720
+AutoCAD and Photoshop were protected by excellence.
+
+00:05:04.050 --> 00:05:06.130
+If the big software houses go
+
+00:05:06.160 --> 00:05:08.280
+back to thrilling their users,
+
+00:05:08.330 --> 00:05:11.090
+with radical new ideas every six months
+
+00:05:11.140 --> 00:05:13.340
+that others first have to copy,
+
+00:05:13.390 --> 00:05:14.600
+that still works.
+
+00:05:14.900 --> 00:05:16.600
+And know your customer.
+
+00:05:16.670 --> 00:05:18.840
+Work with that group in mind.
+
+00:05:18.880 --> 00:05:20.470
+Ask a reasonable sum,
+
+00:05:20.510 --> 00:05:23.320
+not 2000 euros for a two-year licence.
+
+00:05:23.380 --> 00:05:26.110
+Give updates, listen to the feedback,
+
+00:05:26.180 --> 00:05:28.880
+and distil those confused ideas into
+
+00:05:28.910 --> 00:05:31.160
+features that are nice to use.
+
+00:05:31.450 --> 00:05:32.470
+One last risk.
+
+00:05:32.510 --> 00:05:35.360
+Now that implementation costs so little,
+
+00:05:35.410 --> 00:05:37.750
+the laws on software may tighten,
+
+00:05:37.820 --> 00:05:40.430
+with more patents and more copyright,
+
+00:05:40.510 --> 00:05:42.420
+demanded loudly by lobbies.
+
+00:05:42.490 --> 00:05:45.100
+I would see that as a step backwards.
+
+00:05:45.180 --> 00:05:47.340
+Our sector is hard to work in,
+
+00:05:47.370 --> 00:05:51.020
+but it became enormous because it is the way it is.
+
+00:05:51.300 --> 00:05:52.730
+We'll see.
+

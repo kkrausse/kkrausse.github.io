@@ -1,0 +1,970 @@
+{
+  "beats": [
+    {
+      "audio": 2.53,
+      "film": 4.529999999999999,
+      "phrase": "We now have an army"
+    },
+    {
+      "audio": 4.11,
+      "film": 6.11,
+      "phrase": "tireless workers"
+    },
+    {
+      "audio": 7.53,
+      "film": 9.530000000000001,
+      "phrase": "low level"
+    },
+    {
+      "audio": 8.48,
+      "film": 10.48,
+      "phrase": "high level"
+    },
+    {
+      "audio": 9.58,
+      "film": 11.58,
+      "phrase": "you can point them"
+    },
+    {
+      "audio": 11.08,
+      "film": 13.08,
+      "phrase": "how other programs work"
+    },
+    {
+      "audio": 12.79,
+      "film": 14.79,
+      "phrase": "You could try to filter"
+    },
+    {
+      "audio": 15.39,
+      "film": 17.39,
+      "phrase": "the cyber filters"
+    },
+    {
+      "audio": 17.17,
+      "film": 19.17,
+      "phrase": "security work"
+    },
+    {
+      "audio": 19.42,
+      "film": 21.42,
+      "phrase": "open models"
+    },
+    {
+      "audio": 20.59,
+      "film": 22.59,
+      "phrase": "ways around"
+    },
+    {
+      "audio": 22.32,
+      "film": 24.32,
+      "phrase": "So let's assume"
+    },
+    {
+      "audio": 23.98,
+      "film": 25.98,
+      "phrase": "here to stay"
+    },
+    {
+      "audio": 25.2,
+      "film": 27.2,
+      "phrase": "Now think about the software"
+    },
+    {
+      "audio": 28.19,
+      "film": 30.19,
+      "phrase": "a lot of money"
+    },
+    {
+      "audio": 30.34,
+      "film": 32.34,
+      "phrase": "VisiCalc"
+    },
+    {
+      "audio": 31.1,
+      "film": 33.1,
+      "phrase": "then Lotus"
+    },
+    {
+      "audio": 32.48,
+      "film": 34.48,
+      "phrase": "then Excel"
+    },
+    {
+      "audio": 33.4,
+      "film": 35.4,
+      "phrase": "then Google Sheets"
+    },
+    {
+      "audio": 34.93,
+      "film": 36.93,
+      "phrase": "Windows copying Apple"
+    },
+    {
+      "audio": 37.77,
+      "film": 39.77,
+      "phrase": "what it saw at Xerox"
+    },
+    {
+      "audio": 39.46,
+      "film": 41.46,
+      "phrase": "One SQL database"
+    },
+    {
+      "audio": 40.76,
+      "film": 42.76,
+      "phrase": "after another"
+    },
+    {
+      "audio": 41.91,
+      "film": 43.91,
+      "phrase": "Was reverse engineering needed"
+    },
+    {
+      "audio": 44.51,
+      "film": 46.51,
+      "phrase": "copy those ideas"
+    },
+    {
+      "audio": 46.45,
+      "film": 48.45,
+      "phrase": "Software is not patentable"
+    },
+    {
+      "audio": 48.9,
+      "film": 50.9,
+      "phrase": "a problem for doing business"
+    },
+    {
+      "audio": 51.21,
+      "film": 53.21,
+      "phrase": "an enormous advantage"
+    },
+    {
+      "audio": 54.88,
+      "film": 56.88,
+      "phrase": "innovates at a speed"
+    },
+    {
+      "audio": 56.31,
+      "film": 58.31,
+      "phrase": "more regulated fields"
+    },
+    {
+      "audio": 58.55,
+      "film": 60.55,
+      "phrase": "Wherever there is money"
+    },
+    {
+      "audio": 60.25,
+      "film": 62.25,
+      "phrase": "someone gets organised"
+    },
+    {
+      "audio": 62.9,
+      "film": 64.9,
+      "phrase": "Language models"
+    },
+    {
+      "audio": 64.33,
+      "film": 66.33,
+      "phrase": "democratise"
+    },
+    {
+      "audio": 65.8,
+      "film": 67.8,
+      "phrase": "So the point is not"
+    },
+    {
+      "audio": 69.01,
+      "film": 71.01,
+      "phrase": "The point is reimplementation"
+    },
+    {
+      "audio": 71.22,
+      "film": 73.22,
+      "phrase": "A graphic designer"
+    },
+    {
+      "audio": 73.14,
+      "film": 75.14,
+      "phrase": "used Illustrator"
+    },
+    {
+      "audio": 75.7,
+      "film": 77.7,
+      "phrase": "next to a programmer"
+    },
+    {
+      "audio": 77.27,
+      "film": 79.27,
+      "phrase": "a company of two"
+    },
+    {
+      "audio": 79.12,
+      "film": 81.12,
+      "phrase": "reimagine that product"
+    },
+    {
+      "audio": 81.05,
+      "film": 83.05,
+      "phrase": "build it"
+    },
+    {
+      "audio": 81.69,
+      "film": 83.69,
+      "phrase": "from scratch"
+    },
+    {
+      "audio": 82.62,
+      "film": 84.62,
+      "phrase": "with LLMs"
+    },
+    {
+      "audio": 83.65,
+      "film": 85.65,
+      "phrase": "What is inside"
+    },
+    {
+      "audio": 86.18,
+      "film": 88.18,
+      "phrase": "not a trade secret"
+    },
+    {
+      "audio": 87.75,
+      "film": 89.75,
+      "phrase": "The hidden algorithms"
+    },
+    {
+      "audio": 89.88,
+      "film": 91.88,
+      "phrase": "nobody knows"
+    },
+    {
+      "audio": 91.23,
+      "film": 93.23,
+      "phrase": "by now zero"
+    },
+    {
+      "audio": 92.25,
+      "film": 94.25,
+      "phrase": "We are not in"
+    },
+    {
+      "audio": 94,
+      "film": 96,
+      "phrase": "And there is the clean room"
+    },
+    {
+      "audio": 96.06,
+      "film": 98.06,
+      "phrase": "You have an LLM"
+    },
+    {
+      "audio": 97.2,
+      "film": 99.2,
+      "phrase": "turn code into"
+    },
+    {
+      "audio": 98.27,
+      "film": 100.27,
+      "phrase": "a specification"
+    },
+    {
+      "audio": 99.48,
+      "film": 101.48,
+      "phrase": "You delete the logs"
+    },
+    {
+      "audio": 100.97,
+      "film": 102.97,
+      "phrase": "start a fresh instance"
+    },
+    {
+      "audio": 102.68,
+      "film": 104.68,
+      "phrase": "and reimplement from"
+    },
+    {
+      "audio": 105.53,
+      "film": 107.53,
+      "phrase": "Often the documentation"
+    },
+    {
+      "audio": 107.24,
+      "film": 109.24,
+      "phrase": "alone is enough"
+    },
+    {
+      "audio": 108.45,
+      "film": 110.45,
+      "phrase": "You could reimplement Redis"
+    },
+    {
+      "audio": 110.44,
+      "film": 112.44,
+      "phrase": "under a different licence"
+    },
+    {
+      "audio": 113.25,
+      "film": 115.25,
+      "phrase": "So I think this topic"
+    },
+    {
+      "audio": 115.33,
+      "film": 117.33,
+      "phrase": "blown out of proportion"
+    },
+    {
+      "audio": 117,
+      "film": 119,
+      "phrase": "It is incredibly cool"
+    },
+    {
+      "audio": 119.95,
+      "film": 121.95,
+      "phrase": "so good at reverse engineering"
+    },
+    {
+      "audio": 123.04,
+      "film": 125.04,
+      "phrase": "more positive uses"
+    },
+    {
+      "audio": 124.31,
+      "film": 126.31,
+      "phrase": "than negative ones"
+    },
+    {
+      "audio": 125.9,
+      "film": 127.9,
+      "phrase": "When you reimplement"
+    },
+    {
+      "audio": 127.39,
+      "film": 129.39,
+      "phrase": "you keep the conventions"
+    },
+    {
+      "audio": 129.07,
+      "film": 131.07,
+      "phrase": "a user already knows"
+    },
+    {
+      "audio": 132.18,
+      "film": 134.18,
+      "phrase": "a fish out of water"
+    },
+    {
+      "audio": 133.6,
+      "film": 135.6,
+      "phrase": "and then you change"
+    },
+    {
+      "audio": 135.62,
+      "film": 137.62,
+      "phrase": "make it better"
+    },
+    {
+      "audio": 136.7,
+      "film": 138.7,
+      "phrase": "The big companies have lost"
+    },
+    {
+      "audio": 138.6,
+      "film": 140.6,
+      "phrase": "the ability to turn out"
+    },
+    {
+      "audio": 140.22,
+      "film": 142.22,
+      "phrase": "great products"
+    },
+    {
+      "audio": 141.7,
+      "film": 143.7,
+      "phrase": "every new version"
+    },
+    {
+      "audio": 143.19,
+      "film": 145.19,
+      "phrase": "a celebration"
+    },
+    {
+      "audio": 144.45,
+      "film": 146.45,
+      "phrase": "Small teams"
+    },
+    {
+      "audio": 145.53,
+      "film": 147.53,
+      "phrase": "can do that again"
+    },
+    {
+      "audio": 147.5,
+      "film": 149.5,
+      "phrase": "But flip the argument"
+    },
+    {
+      "audio": 149.15,
+      "film": 151.15,
+      "phrase": "If I can easily reproduce"
+    },
+    {
+      "audio": 151.02,
+      "film": 153.02,
+      "phrase": "any software"
+    },
+    {
+      "audio": 151.95,
+      "film": 153.95,
+      "phrase": "I know how to use"
+    },
+    {
+      "audio": 153.32,
+      "film": 155.32,
+      "phrase": "is that the end"
+    },
+    {
+      "audio": 156.12,
+      "film": 158.12,
+      "phrase": "The problems there"
+    },
+    {
+      "audio": 158.41,
+      "film": 160.41,
+      "phrase": "Fewer companies will make money"
+    },
+    {
+      "audio": 161,
+      "film": 163,
+      "phrase": "fewer can hire"
+    },
+    {
+      "audio": 162.94,
+      "film": 164.94,
+      "phrase": "Still, I believe"
+    },
+    {
+      "audio": 165.09,
+      "film": 167.09,
+      "phrase": "it ends up positive"
+    },
+    {
+      "audio": 166.85,
+      "film": 168.85,
+      "phrase": "Everyone will hold"
+    },
+    {
+      "audio": 168.23,
+      "film": 170.23,
+      "phrase": "very powerful tools"
+    },
+    {
+      "audio": 170.04,
+      "film": 172.04,
+      "phrase": "can bend them"
+    },
+    {
+      "audio": 171.41,
+      "film": 173.41,
+      "phrase": "exactly what they want"
+    },
+    {
+      "audio": 173.4,
+      "film": 175.4,
+      "phrase": "What protection is left"
+    },
+    {
+      "audio": 176.51,
+      "film": 178.51,
+      "phrase": "America and Europe"
+    },
+    {
+      "audio": 177.84,
+      "film": 179.84,
+      "phrase": "Take AutoCAD"
+    },
+    {
+      "audio": 178.76,
+      "film": 180.76,
+      "phrase": "Nobody can stop you"
+    },
+    {
+      "audio": 181.61,
+      "film": 183.61,
+      "phrase": "you pick two points"
+    },
+    {
+      "audio": 183.2,
+      "film": 185.2,
+      "phrase": "the circle passes"
+    },
+    {
+      "audio": 185.32,
+      "film": 187.32,
+      "phrase": "You can copy the function"
+    },
+    {
+      "audio": 187.37,
+      "film": 189.37,
+      "phrase": "how it operates"
+    },
+    {
+      "audio": 188.75,
+      "film": 190.75,
+      "phrase": "Only if the interface"
+    },
+    {
+      "audio": 190.83,
+      "film": 192.83,
+      "phrase": "too similar"
+    },
+    {
+      "audio": 191.73,
+      "film": 193.73,
+      "phrase": "the icons"
+    },
+    {
+      "audio": 192.49,
+      "film": 194.49,
+      "phrase": "the layout"
+    },
+    {
+      "audio": 193.33,
+      "film": 195.33,
+      "phrase": "can you have problems"
+    },
+    {
+      "audio": 195.55,
+      "film": 197.55,
+      "phrase": "someone has to sue"
+    },
+    {
+      "audio": 196.93,
+      "film": 198.93,
+      "phrase": "with a budget"
+    },
+    {
+      "audio": 197.97,
+      "film": 199.97,
+      "phrase": "That works for big"
+    },
+    {
+      "audio": 200.05,
+      "film": 202.05,
+      "phrase": "For small software"
+    },
+    {
+      "audio": 201.37,
+      "film": 203.37,
+      "phrase": "it barely works"
+    },
+    {
+      "audio": 202.8,
+      "film": 204.8,
+      "phrase": "The precedents"
+    },
+    {
+      "audio": 205.91,
+      "film": 207.91,
+      "phrase": "Lotus versus Borland"
+    },
+    {
+      "audio": 207.55,
+      "film": 209.55,
+      "phrase": "Apple versus Microsoft"
+    },
+    {
+      "audio": 209.33,
+      "film": 211.33,
+      "phrase": "The spreadsheet was"
+    },
+    {
+      "audio": 210.81,
+      "film": 212.81,
+      "phrase": "a stroke of genius"
+    },
+    {
+      "audio": 212.29,
+      "film": 214.29,
+      "phrase": "a very specific idea"
+    },
+    {
+      "audio": 214.22,
+      "film": 216.22,
+      "phrase": "you would expect it"
+    },
+    {
+      "audio": 216.96,
+      "film": 218.96,
+      "phrase": "It was not"
+    },
+    {
+      "audio": 217.85,
+      "film": 219.85,
+      "phrase": "It was replicated"
+    },
+    {
+      "audio": 219.19,
+      "film": 221.19,
+      "phrase": "endless times"
+    },
+    {
+      "audio": 220.55,
+      "film": 222.55,
+      "phrase": "So where is the real protection"
+    },
+    {
+      "audio": 224.46,
+      "film": 226.46,
+      "phrase": "truly specialised"
+    },
+    {
+      "audio": 225.88,
+      "film": 227.88,
+      "phrase": "Copying DaVinci Studio"
+    },
+    {
+      "audio": 227.84,
+      "film": 229.84,
+      "phrase": "no walk in the park"
+    },
+    {
+      "audio": 229.41,
+      "film": 231.41,
+      "phrase": "You get to"
+    },
+    {
+      "audio": 231.52,
+      "film": 233.52,
+      "phrase": "fine for almost everyone"
+    },
+    {
+      "audio": 233.77,
+      "film": 235.77,
+      "phrase": "the Hollywood studio"
+    },
+    {
+      "audio": 235.35,
+      "film": 237.35,
+      "phrase": "still buys"
+    },
+    {
+      "audio": 237.1,
+      "film": 239.1,
+      "phrase": "And in the"
+    },
+    {
+      "audio": 240.68,
+      "film": 242.68,
+      "phrase": "nobody wants to depend"
+    },
+    {
+      "audio": 243.07,
+      "film": 245.07,
+      "phrase": "thrown onto GitHub"
+    },
+    {
+      "audio": 244.65,
+      "film": 246.65,
+      "phrase": "Another thing will happen"
+    },
+    {
+      "audio": 246.51,
+      "film": 248.51,
+      "phrase": "As some programmers"
+    },
+    {
+      "audio": 247.89,
+      "film": 249.89,
+      "phrase": "lose their jobs"
+    },
+    {
+      "audio": 249.76,
+      "film": 251.76,
+      "phrase": "like the nineties"
+    },
+    {
+      "audio": 251.9,
+      "film": 253.9,
+      "phrase": "fewer opportunities"
+    },
+    {
+      "audio": 253.55,
+      "film": 255.55,
+      "phrase": "spent our spare time"
+    },
+    {
+      "audio": 256.45,
+      "film": 258.45,
+      "phrase": "When programmers were"
+    },
+    {
+      "audio": 259.07,
+      "film": 261.07,
+      "phrase": "open source fell off"
+    },
+    {
+      "audio": 261.6,
+      "film": 263.6,
+      "phrase": "Maybe now"
+    },
+    {
+      "audio": 263.78,
+      "film": 265.78,
+      "phrase": "lost my job"
+    },
+    {
+      "audio": 265.01,
+      "film": 267.01,
+      "phrase": "start a little company"
+    },
+    {
+      "audio": 266.58,
+      "film": 268.58,
+      "phrase": "on free software"
+    },
+    {
+      "audio": 268.35,
+      "film": 270.35,
+      "phrase": "keeping it closed"
+    },
+    {
+      "audio": 270.13,
+      "film": 272.13,
+      "phrase": "make much sense"
+    },
+    {
+      "audio": 272.15,
+      "film": 274.15,
+      "phrase": "For sure a lot"
+    },
+    {
+      "audio": 274.61,
+      "film": 276.61,
+      "phrase": "will be destroyed"
+    },
+    {
+      "audio": 275.94,
+      "film": 277.94,
+      "phrase": "But we have been through"
+    },
+    {
+      "audio": 278.12,
+      "film": 280.12,
+      "phrase": "Linux, Redis"
+    },
+    {
+      "audio": 279.03,
+      "film": 281.03,
+      "phrase": "and PHP"
+    },
+    {
+      "audio": 279.59,
+      "film": 281.59,
+      "phrase": "destroyed a ton"
+    },
+    {
+      "audio": 281.7,
+      "film": 283.7,
+      "phrase": "Sun was sunk"
+    },
+    {
+      "audio": 282.61,
+      "film": 284.61,
+      "phrase": "by open source too"
+    },
+    {
+      "audio": 284.02,
+      "film": 286.02,
+      "phrase": "And we came out"
+    },
+    {
+      "audio": 288.2,
+      "film": 290.2,
+      "phrase": "It is not a given"
+    },
+    {
+      "audio": 292.21,
+      "film": 294.21,
+      "phrase": "the detonation"
+    },
+    {
+      "audio": 294.25,
+      "film": 296.25,
+      "phrase": "But for those who do"
+    },
+    {
+      "audio": 297.24,
+      "film": 299.24,
+      "phrase": "there is room"
+    },
+    {
+      "audio": 298.26,
+      "film": 300.26,
+      "phrase": "AutoCAD and Photoshop"
+    },
+    {
+      "audio": 300.1,
+      "film": 302.1,
+      "phrase": "protected by excellence"
+    },
+    {
+      "audio": 302.05,
+      "film": 304.05,
+      "phrase": "If the big software houses"
+    },
+    {
+      "audio": 304.72,
+      "film": 306.72,
+      "phrase": "thrilling their users"
+    },
+    {
+      "audio": 306.68,
+      "film": 308.68,
+      "phrase": "radical new ideas"
+    },
+    {
+      "audio": 307.95,
+      "film": 309.95,
+      "phrase": "every six months"
+    },
+    {
+      "audio": 309.49,
+      "film": 311.49,
+      "phrase": "others first have to copy"
+    },
+    {
+      "audio": 311.39,
+      "film": 313.39,
+      "phrase": "that still works"
+    },
+    {
+      "audio": 312.9,
+      "film": 314.9,
+      "phrase": "And know your customer"
+    },
+    {
+      "audio": 314.67,
+      "film": 316.67,
+      "phrase": "Work with that group"
+    },
+    {
+      "audio": 317.18,
+      "film": 319.18,
+      "phrase": "a reasonable sum"
+    },
+    {
+      "audio": 319.17,
+      "film": 321.17,
+      "phrase": "euros"
+    },
+    {
+      "audio": 320.72,
+      "film": 322.72,
+      "phrase": "licence. Give"
+    },
+    {
+      "audio": 321.38,
+      "film": 323.38,
+      "phrase": "Give updates"
+    },
+    {
+      "audio": 322.41,
+      "film": 324.41,
+      "phrase": "listen to the feedback"
+    },
+    {
+      "audio": 324.48,
+      "film": 326.48,
+      "phrase": "distil those confused ideas"
+    },
+    {
+      "audio": 326.54,
+      "film": 328.54,
+      "phrase": "into features"
+    },
+    {
+      "audio": 328.24,
+      "film": 330.24,
+      "phrase": "nice to use"
+    },
+    {
+      "audio": 329.45,
+      "film": 331.45,
+      "phrase": "One last risk"
+    },
+    {
+      "audio": 332.21,
+      "film": 334.21,
+      "phrase": "costs so little"
+    },
+    {
+      "audio": 333.41,
+      "film": 335.41,
+      "phrase": "the laws on software"
+    },
+    {
+      "audio": 336.17,
+      "film": 338.17,
+      "phrase": "more patents"
+    },
+    {
+      "audio": 337.37,
+      "film": 339.37,
+      "phrase": "more copyright"
+    },
+    {
+      "audio": 338.51,
+      "film": 340.51,
+      "phrase": "demanded loudly"
+    },
+    {
+      "audio": 339.64,
+      "film": 341.64,
+      "phrase": "by lobbies"
+    },
+    {
+      "audio": 341.9,
+      "film": 343.9,
+      "phrase": "a step backwards"
+    },
+    {
+      "audio": 343.18,
+      "film": 345.18,
+      "phrase": "Our sector"
+    },
+    {
+      "audio": 345.65,
+      "film": 347.65,
+      "phrase": "it became enormous"
+    },
+    {
+      "audio": 347.99,
+      "film": 349.99,
+      "phrase": "the way it is"
+    },
+    {
+      "audio": 349.3,
+      "film": 351.3,
+      "phrase": "We'll see"
+    }
+  ],
+  "leadSeconds": 2,
+  "pans": [
+    27.2,
+    67.8,
+    96,
+    115.25,
+    127.9,
+    149.5,
+    175.4,
+    222.55,
+    246.65,
+    274.15,
+    296.25,
+    314.9,
+    331.45
+  ]
+}

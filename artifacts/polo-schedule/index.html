@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Polo schedule · Kezar &amp; Polo Field</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+    body { max-width: 58rem; margin: auto; padding: 1.5rem 1rem; line-height: 1.5; }
+    h1 { margin-bottom: .25rem; } h2 { font-size: 1.1rem; }
+    a { color: light-dark(#165a40, #92dfbc); }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+    article { padding: 1rem; border: 1px solid #8886; border-radius: 1rem; }
+    .status { font-size: 1.5rem; font-weight: 700; margin: .5rem 0; }
+    .open { color: light-dark(#14603d, #9ae8bc); }
+    .closed { color: light-dark(#994416, #ffc29e); }
+    .muted, footer { opacity: .75; font-size: .9rem; }
+    .scroll { overflow-x: auto; } table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; padding: .85rem .5rem; border-bottom: 1px solid #8885; vertical-align: top; min-width: 135px; }
+    th:first-child, td:first-child { min-width: 80px; }
+    td div + div { margin-top: .25rem; }
+  </style>
+<script type="module" crossorigin src="./index-2k57cg4f.js"></script><link rel="stylesheet" href="/theme.css" data-site-theme>
+</head>
+<body>
+  <h1>Polo schedule</h1>
+  <p>Kezar running track &amp; Polo Field cycling track</p>
+  <p id="clock" class="muted"></p>
+  <p id="message" role="status">Loading schedule…</p>
+  <div id="now" class="cards" aria-live="polite"></div>
+  <h2>Next 7 days · scheduled open times</h2>
+  <div class="scroll"><table><thead><tr><th scope="col">Day</th><th scope="col">Polo · cycling</th><th scope="col">Kezar · running</th></tr></thead><tbody id="days"></tbody></table></div>
+  <h2>Official sources</h2>
+  <p><a href="https://sfrecpark.org/526/Polo-Field-Usage">Polo schedule</a> · <a href="https://sfrecpark.org/calendar.aspx?CID=41">Polo calendar</a> · <a href="https://sfrecpark.org/1354/Kezar-Events">Kezar schedule</a> · <a id="csv-link" href="schedule.csv">Schedule CSV</a></p>
+  <footer>
+    <p>All times are San Francisco time. This is a saved schedule, not live gate or weather information. Data is reloaded every 15 minutes; the clock updates every minute. Schedule data needs periodic manual updates.</p>
+    <p>Kezar hours: 6:30 a.m.–10 p.m.; stay off the field. Polo “after” windows extend to the end of the calendar day here because the source gives no ending time—not a guarantee of overnight access. Unlisted dates are unknown. Data checked more than 7 days ago is marked stale.</p>
+  </footer>
+  <noscript>Enable JavaScript for the time table, or use the official links above.</noscript>
+  
+</body>
+</html>

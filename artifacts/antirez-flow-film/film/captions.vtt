@@ -1,0 +1,797 @@
+WEBVTT
+
+00:00:02.000 --> 00:00:05.940
+I think by now we are all convinced that frontier large
+
+00:00:05.990 --> 00:00:09.880
+language models are extremely powerful for programming.
+
+00:00:09.970 --> 00:00:13.260
+You can do things that you couldn't do before,
+
+00:00:13.320 --> 00:00:15.570
+in very short times, and so on.
+
+00:00:15.850 --> 00:00:19.020
+So it's not only a matter of reducing the time,
+
+00:00:19.060 --> 00:00:19.990
+but sometimes,
+
+00:00:20.060 --> 00:00:23.360
+to do certain things you would have needed, well,
+
+00:00:23.400 --> 00:00:25.580
+many programmers for a length of
+
+00:00:25.600 --> 00:00:27.520
+time that wasn't appropriate,
+
+00:00:27.610 --> 00:00:29.780
+compared to what was, let's say,
+
+00:00:29.810 --> 00:00:31.690
+the function of the project.
+
+00:00:32.000 --> 00:00:33.860
+Especially in open source,
+
+00:00:33.920 --> 00:00:36.770
+it's not as if you had a hundred people,
+
+00:00:36.820 --> 00:00:40.260
+or even three people, to throw at it for a year.
+
+00:00:40.550 --> 00:00:43.510
+Now, if instead you can do it in a week, the,
+
+00:00:43.540 --> 00:00:44.810
+how shall I put it,
+
+00:00:44.840 --> 00:00:47.070
+the proportions of the whole field
+
+00:00:47.110 --> 00:00:48.680
+have completely changed,
+
+00:00:48.740 --> 00:00:50.700
+so you can do a ton of things.
+
+00:00:51.000 --> 00:00:54.150
+LLMs are extremely powerful, and okay,
+
+00:00:54.200 --> 00:00:56.450
+we have amply noticed that.
+
+00:00:56.750 --> 00:01:00.990
+But I think that at the same time all programmers have noticed
+
+00:01:01.040 --> 00:01:04.600
+that on one side the toil of programming has shrunk,
+
+00:01:04.650 --> 00:01:08.030
+which in some cases is enormous, but the fun too,
+
+00:01:08.060 --> 00:01:10.600
+the beauty of programming has shrunk.
+
+00:01:10.900 --> 00:01:14.350
+I say the toil because sometimes it has happened to me,
+
+00:01:14.370 --> 00:01:16.620
+for example, I remember with Disque,
+
+00:01:16.670 --> 00:01:19.520
+I spent a month unable to compile the program,
+
+00:01:19.580 --> 00:01:22.830
+because pieces were missing and I kept writing them,
+
+00:01:22.870 --> 00:01:25.790
+and I couldn't even test whether things worked,
+
+00:01:25.840 --> 00:01:28.370
+writing a ton of things while keeping in
+
+00:01:28.380 --> 00:01:30.940
+mind the whole state of what I was doing,
+
+00:01:30.990 --> 00:01:33.620
+one of the most complicated implementations
+
+00:01:33.720 --> 00:01:35.660
+I have ever written in my life.
+
+00:01:35.950 --> 00:01:38.200
+And well, these are hard moments,
+
+00:01:38.260 --> 00:01:41.070
+just like the heisenbugs, when you don't,
+
+00:01:41.120 --> 00:01:43.480
+you don't know why a bug shows up,
+
+00:01:43.500 --> 00:01:47.410
+and it shows up very rarely, because otherwise it's easy.
+
+00:01:47.700 --> 00:01:51.090
+For many years I had as my tagline on X,
+
+00:01:51.120 --> 00:01:53.630
+reproducible bugs are candies.
+
+00:01:53.950 --> 00:01:56.690
+That is, reproducible bugs are candies,
+
+00:01:56.750 --> 00:01:59.050
+because bit by bit you accumulate
+
+00:01:59.130 --> 00:02:01.110
+information about the state,
+
+00:02:01.160 --> 00:02:01.820
+and well,
+
+00:02:01.860 --> 00:02:05.820
+you understand what the problem is and you make the fix.
+
+00:02:06.100 --> 00:02:08.510
+Instead the bugs that are sometimes
+
+00:02:08.580 --> 00:02:10.260
+there and sometimes not,
+
+00:02:10.290 --> 00:02:12.730
+in conditions you can't figure out,
+
+00:02:12.770 --> 00:02:15.510
+that maybe happen only at the customer's
+
+00:02:15.590 --> 00:02:18.160
+and you can't manage to observe them.
+
+00:02:18.450 --> 00:02:21.870
+That is, there is a great frustration in programming,
+
+00:02:21.950 --> 00:02:24.830
+for which many now, I'll tell you the truth,
+
+00:02:24.870 --> 00:02:26.900
+have breathed a sigh of relief.
+
+00:02:27.200 --> 00:02:30.280
+I know many who tell me, I, honestly, well,
+
+00:02:30.320 --> 00:02:33.740
+I was frying myself, I couldn't take it anymore.
+
+00:02:34.050 --> 00:02:37.470
+Now the job has become more, like, bearable.
+
+00:02:37.800 --> 00:02:39.960
+At the same time, though, the fun,
+
+00:02:39.990 --> 00:02:43.590
+because there are phases of programming of incredible joy
+
+00:02:43.610 --> 00:02:47.020
+and fun in what you have made while you are making it,
+
+00:02:47.050 --> 00:02:49.560
+being in the flow, making those changes,
+
+00:02:49.610 --> 00:02:53.020
+seeing the effects, well, we have all been through it,
+
+00:02:53.050 --> 00:02:54.710
+since we were, some of us,
+
+00:02:54.740 --> 00:02:57.740
+since we were kids and wrote our first programs.
+
+00:02:58.050 --> 00:03:00.670
+This thing here has gone down the drain,
+
+00:03:00.720 --> 00:03:04.060
+and in these months I have asked myself a lot about
+
+00:03:04.100 --> 00:03:07.310
+what it is that went away and how to get it back.
+
+00:03:07.600 --> 00:03:09.340
+Yesterday, for example,
+
+00:03:09.400 --> 00:03:13.090
+I was modifying this emulator that I had written,
+
+00:03:13.160 --> 00:03:14.480
+the Spectrum one,
+
+00:03:14.510 --> 00:03:17.740
+where I have also implemented the emulation
+
+00:03:17.820 --> 00:03:20.280
+of the Commodore 64 with Opus 5.
+
+00:03:20.550 --> 00:03:23.940
+At a certain point I connected it to a Raspberry
+
+00:03:24.020 --> 00:03:27.370
+Pi with a very large screen that I had at home,
+
+00:03:27.410 --> 00:03:30.680
+overclocking the SPI interface for the fastest
+
+00:03:30.730 --> 00:03:33.570
+communication possible with the display,
+
+00:03:33.630 --> 00:03:36.180
+which unfortunately is not parallel.
+
+00:03:36.500 --> 00:03:39.050
+You have to know that these displays
+
+00:03:39.110 --> 00:03:41.360
+usually have a serial interface,
+
+00:03:41.440 --> 00:03:42.460
+so a bit slow.
+
+00:03:42.750 --> 00:03:44.870
+Instead there are the versions
+
+00:03:44.930 --> 00:03:47.110
+that have a parallel interface,
+
+00:03:47.190 --> 00:03:50.110
+so you can transfer eight bits at a time,
+
+00:03:50.150 --> 00:03:52.840
+and so obviously they are much faster,
+
+00:03:52.900 --> 00:03:55.060
+but you need many more pins on
+
+00:03:55.080 --> 00:03:57.000
+the MCU that you are using,
+
+00:03:57.050 --> 00:03:59.390
+so a Raspberry Pico, for example.
+
+00:03:59.700 --> 00:04:03.210
+And well, basically then I was telling it, look,
+
+00:04:03.260 --> 00:04:05.590
+let's implement partial updates,
+
+00:04:05.650 --> 00:04:07.690
+do the CRC of each scanline,
+
+00:04:07.760 --> 00:04:10.270
+and if it matches don't update it.
+
+00:04:10.550 --> 00:04:13.150
+Yes, but there can be collisions.
+
+00:04:13.500 --> 00:04:15.170
+What collisions?
+
+00:04:15.550 --> 00:04:18.990
+It can't happen in practice, it doesn't matter.
+
+00:04:19.300 --> 00:04:21.880
+It can happen once every, I don't know,
+
+00:04:21.910 --> 00:04:24.360
+years of use that at some point there
+
+00:04:24.400 --> 00:04:26.690
+is a line that doesn't get updated,
+
+00:04:26.750 --> 00:04:28.990
+and you don't notice it at thirty,
+
+00:04:29.040 --> 00:04:30.620
+fifty frames per second,
+
+00:04:30.670 --> 00:04:33.010
+the refresh rate that you manage to
+
+00:04:33.030 --> 00:04:35.190
+get even with this large display,
+
+00:04:35.250 --> 00:04:37.490
+at least thirty frames per second,
+
+00:04:37.540 --> 00:04:39.450
+with the other devices fifty.
+
+00:04:39.750 --> 00:04:41.730
+That is, well, this part here,
+
+00:04:41.770 --> 00:04:45.400
+even if you move to the level of designer, of architect,
+
+00:04:45.470 --> 00:04:47.920
+whatever the fuck we want to call it,
+
+00:04:47.940 --> 00:04:49.920
+I have always hated this name,
+
+00:04:49.960 --> 00:04:52.910
+but at this point there is little to be done.
+
+00:04:53.200 --> 00:04:56.540
+That is, not architect in the sense of architecture,
+
+00:04:56.630 --> 00:04:57.190
+that is,
+
+00:04:57.220 --> 00:05:00.320
+the idea of the software architect who sometimes
+
+00:05:00.390 --> 00:05:03.280
+then didn't really know what the fuck he was
+
+00:05:03.300 --> 00:05:05.810
+saying and how things were implemented,
+
+00:05:05.900 --> 00:05:09.070
+because it also happened to see this in practice,
+
+00:05:09.130 --> 00:05:10.270
+I didn't love it.
+
+00:05:10.550 --> 00:05:13.000
+But this job can be done well.
+
+00:05:13.300 --> 00:05:15.680
+One can say that, I don't know,
+
+00:05:15.720 --> 00:05:18.540
+Linus is the architect of the kernel.
+
+00:05:18.850 --> 00:05:20.350
+Fair enough.
+
+00:05:20.700 --> 00:05:22.870
+Let's say that I am more open,
+
+00:05:22.910 --> 00:05:25.310
+given how things have turned out,
+
+00:05:25.340 --> 00:05:28.120
+to using this terminology in computing.
+
+00:05:28.450 --> 00:05:32.090
+Anyway, you are the designer, the product person,
+
+00:05:32.150 --> 00:05:34.100
+the man or woman of ideas.
+
+00:05:34.400 --> 00:05:37.400
+And this thing here, I'll tell you the truth,
+
+00:05:37.450 --> 00:05:40.660
+involves me a great deal, because, I don't know,
+
+00:05:40.700 --> 00:05:42.620
+I made the software keyboard,
+
+00:05:42.680 --> 00:05:45.370
+but I specified exactly how I wanted it.
+
+00:05:45.650 --> 00:05:48.520
+And these are not things that at this moment
+
+00:05:48.560 --> 00:05:51.250
+large language models can do autonomously,
+
+00:05:51.340 --> 00:05:54.820
+and there is great room to say, I want it transparent,
+
+00:05:54.900 --> 00:05:58.360
+there must be this interaction, first these two keys,
+
+00:05:58.400 --> 00:06:01.990
+it pops up, it remembers where I was the last time, go,
+
+00:06:02.020 --> 00:06:03.660
+if you press on the menu,
+
+00:06:03.700 --> 00:06:06.380
+let's put there the possibility to switch
+
+00:06:06.420 --> 00:06:08.700
+between one joystick and the other.
+
+00:06:09.000 --> 00:06:12.130
+A ton of things that have to do with one's
+
+00:06:12.180 --> 00:06:14.820
+own sensibility for user experience,
+
+00:06:14.910 --> 00:06:18.860
+user interface, the technology, for what can be done.
+
+00:06:19.150 --> 00:06:22.640
+Because I, then, for these displays I am talking about,
+
+00:06:22.680 --> 00:06:24.550
+what fucking beasts, damn it,
+
+00:06:24.570 --> 00:06:26.990
+for these displays I am talking about,
+
+00:06:27.030 --> 00:06:28.990
+I have written several drivers,
+
+00:06:29.050 --> 00:06:31.200
+I have read the datasheets several
+
+00:06:31.250 --> 00:06:32.780
+times in the last years,
+
+00:06:32.830 --> 00:06:35.060
+and there were those last two years
+
+00:06:35.100 --> 00:06:37.130
+in which I didn't work on Redis,
+
+00:06:37.180 --> 00:06:39.300
+when I had thrown myself into the
+
+00:06:39.320 --> 00:06:41.120
+embedded world in a big way.
+
+00:06:41.400 --> 00:06:43.540
+So this thing here is beautiful
+
+00:06:43.610 --> 00:06:45.730
+in the same way as programming,
+
+00:06:45.820 --> 00:06:49.150
+maybe in a different way, but the flow is there.
+
+00:06:49.450 --> 00:06:51.460
+What is the problem?
+
+00:06:51.800 --> 00:06:53.390
+The pauses.
+
+00:06:53.750 --> 00:06:56.180
+The problem is the pauses.
+
+00:06:56.500 --> 00:07:00.590
+The pauses that pass between when you write to the LLM,
+
+00:07:00.620 --> 00:07:04.540
+to the agent, that you want to obtain a given result.
+
+00:07:04.850 --> 00:07:05.140
+Yes,
+
+00:07:05.170 --> 00:07:07.930
+then of course you check for a moment that
+
+00:07:07.960 --> 00:07:10.520
+maybe that thing works the way you had,
+
+00:07:10.550 --> 00:07:11.230
+let's say,
+
+00:07:11.260 --> 00:07:13.310
+designed it and the way you had
+
+00:07:13.340 --> 00:07:15.100
+expressed it in the prompt.
+
+00:07:15.400 --> 00:07:17.440
+But in fact then, I don't know,
+
+00:07:17.480 --> 00:07:19.690
+it has to churn for a few minutes,
+
+00:07:19.750 --> 00:07:21.670
+and meanwhile what do you do?
+
+00:07:21.950 --> 00:07:25.260
+I had told you in a previous video about this,
+
+00:07:25.300 --> 00:07:29.470
+that the way I defend myself from these pauses is by doing
+
+00:07:29.510 --> 00:07:33.110
+meanwhile another activity that does require flow,
+
+00:07:33.150 --> 00:07:34.590
+for example writing.
+
+00:07:34.900 --> 00:07:39.160
+Lately I am writing little, so this hasn't happened much.
+
+00:07:39.450 --> 00:07:41.950
+Luckily I agreed to write the preface
+
+00:07:42.000 --> 00:07:44.040
+of a book by a friend of mine,
+
+00:07:44.080 --> 00:07:46.300
+so now I am writing this preface,
+
+00:07:46.360 --> 00:07:49.790
+and I was using these moments to write the preface.
+
+00:07:50.100 --> 00:07:52.630
+Since there are fairly long pauses and
+
+00:07:52.660 --> 00:07:55.040
+you do a completely different thing,
+
+00:07:55.080 --> 00:07:57.870
+the context switching doesn't weigh on me.
+
+00:07:58.150 --> 00:07:58.740
+But well,
+
+00:07:58.780 --> 00:08:02.010
+the point is that as the models become much faster,
+
+00:08:02.060 --> 00:08:03.730
+almost instantaneous, and,
+
+00:08:03.760 --> 00:08:07.000
+but obviously then there is also the fact that they
+
+00:08:07.040 --> 00:08:10.150
+have to replicate these effects then on the code,
+
+00:08:10.190 --> 00:08:13.240
+but often, unless, let's say, one commits, like,
+
+00:08:13.280 --> 00:08:16.070
+the madness of using Rust, I'm joking, guys,
+
+00:08:16.110 --> 00:08:18.830
+a little bit of, like, of being an asshole,
+
+00:08:18.880 --> 00:08:22.360
+allow me that, which takes sixty-four years to compile,
+
+00:08:22.410 --> 00:08:25.280
+otherwise there is the compilation cycle both
+
+00:08:25.310 --> 00:08:27.700
+of C and of the interpreted languages,
+
+00:08:27.770 --> 00:08:31.010
+if one programs at a high level, but less and less,
+
+00:08:31.050 --> 00:08:32.720
+it seems to me, and so on.
+
+00:08:33.000 --> 00:08:35.660
+With Go too this cycle is very fast,
+
+00:08:35.700 --> 00:08:38.340
+so you see the effects very quickly,
+
+00:08:38.400 --> 00:08:40.260
+you can iterate this way.
+
+00:08:40.550 --> 00:08:43.200
+Yes, you do get into the flow.
+
+00:08:43.500 --> 00:08:46.040
+Even if you don't write a line of code,
+
+00:08:46.080 --> 00:08:49.450
+you are in the flow, but the pauses kill this stuff.
+
+00:08:49.750 --> 00:08:52.090
+Sometimes obviously, I don't know,
+
+00:08:52.130 --> 00:08:54.700
+for example in this embedded thing it
+
+00:08:54.720 --> 00:08:57.180
+has to do the refresh of the device,
+
+00:08:57.240 --> 00:09:01.020
+but it's not that it takes much time actually to do it.
+
+00:09:01.300 --> 00:09:01.890
+But yes,
+
+00:09:01.930 --> 00:09:05.640
+when the models become faster this thing will change.
+
+00:09:05.950 --> 00:09:08.080
+There is another matter.
+
+00:09:08.400 --> 00:09:11.670
+Since Opus 5 is, how do you say it in English,
+
+00:09:11.730 --> 00:09:14.210
+anal retentive, that is, basically,
+
+00:09:14.290 --> 00:09:17.780
+you have to tear the words out of it with pliers,
+
+00:09:17.840 --> 00:09:21.060
+otherwise it tells you nothing until the end.
+
+00:09:21.350 --> 00:09:24.890
+And in the session by now what I do is I tell it,
+
+00:09:24.910 --> 00:09:29.020
+every time you undertake a significant step, announce it.
+
+00:09:29.300 --> 00:09:33.050
+Yes, I consume more tokens, I don't give a fuck.
+
+00:09:33.350 --> 00:09:36.530
+I have to see, as it goes ahead, what it is doing,
+
+00:09:36.570 --> 00:09:39.380
+because understanding bit by bit which steps
+
+00:09:39.410 --> 00:09:42.220
+are happening also makes you enter the flow,
+
+00:09:42.260 --> 00:09:43.420
+and not only that,
+
+00:09:43.460 --> 00:09:45.740
+it also makes you understand whether
+
+00:09:45.790 --> 00:09:48.160
+the direction taken is the wrong one,
+
+00:09:48.200 --> 00:09:51.630
+and in that case you re-prompt and tell it, hey, look,
+
+00:09:51.670 --> 00:09:55.310
+this here is not what I wanted, what I was interested in,
+
+00:09:55.330 --> 00:09:56.820
+what I was looking for.
+
+00:09:57.100 --> 00:10:00.260
+Do it this way, rather do it that way.
+
+00:10:00.550 --> 00:10:02.920
+But also sometimes, for example,
+
+00:10:02.990 --> 00:10:05.170
+in this embedded thing I give
+
+00:10:05.210 --> 00:10:07.280
+it a lot of visual feedback.
+
+00:10:07.600 --> 00:10:09.420
+If I know what it is doing,
+
+00:10:09.470 --> 00:10:12.890
+I look at what happens on the display, I say, look,
+
+00:10:12.930 --> 00:10:16.480
+here I see there is flickering, et cetera, et cetera,
+
+00:10:16.530 --> 00:10:19.960
+maybe you should try, it may be that, I don't know,
+
+00:10:20.000 --> 00:10:22.210
+at so many megahertz the protocol
+
+00:10:22.270 --> 00:10:24.050
+loses a bit of information,
+
+00:10:24.130 --> 00:10:27.890
+even if it usually works, sometimes it goes out of sync,
+
+00:10:27.930 --> 00:10:29.350
+et cetera, et cetera.
+
+00:10:29.650 --> 00:10:32.660
+Obviously, besides the activity of writing,
+
+00:10:32.730 --> 00:10:35.290
+a very interesting activity that you
+
+00:10:35.320 --> 00:10:37.500
+can do in the moments of pause,
+
+00:10:37.550 --> 00:10:40.430
+when you wait while the agent is running,
+
+00:10:40.490 --> 00:10:41.710
+is watching porn.
+
+00:10:42.000 --> 00:10:45.750
+No, I'm joking, maybe that too if you feel like it,
+
+00:10:45.780 --> 00:10:48.060
+but it is writing code by hand.
+
+00:10:48.350 --> 00:10:52.020
+I was saying that in my opinion writing code by hand,
+
+00:10:52.060 --> 00:10:54.200
+even if it is no longer useful,
+
+00:10:54.250 --> 00:10:56.570
+remains beautiful and interesting,
+
+00:10:56.660 --> 00:11:00.320
+and one can undertake the writing of meaningful code,
+
+00:11:00.370 --> 00:11:03.020
+either to learn more about programming,
+
+00:11:03.110 --> 00:11:06.880
+or simply to write code that is particularly beautiful,
+
+00:11:06.960 --> 00:11:07.760
+interesting.
+
+00:11:08.100 --> 00:11:10.460
+So you can do it this way.
+
+00:11:10.750 --> 00:11:13.690
+I know, I know what many of you are thinking,
+
+00:11:13.750 --> 00:11:17.290
+that actually the possibility is also that of carrying
+
+00:11:17.350 --> 00:11:20.280
+forward several projects in several sessions.
+
+00:11:20.600 --> 00:11:22.190
+This thing can be done,
+
+00:11:22.230 --> 00:11:25.930
+and at that point you break the flow, because flow is,
+
+00:11:25.960 --> 00:11:26.890
+by definition,
+
+00:11:26.970 --> 00:11:30.640
+doing that thing continuously within the same project.
+
+00:11:30.950 --> 00:11:34.320
+If you do context switching you lose the flow,
+
+00:11:34.360 --> 00:11:37.810
+but you optimize, you no longer have dead time.
+
+00:11:38.100 --> 00:11:42.410
+In my opinion there is also a bit of going crazy in that,
+
+00:11:42.450 --> 00:11:42.860
+well.
+
+00:11:43.150 --> 00:11:43.400
+So,
+
+00:11:43.430 --> 00:11:45.520
+automation must also allow us
+
+00:11:45.540 --> 00:11:47.590
+to catch our breath a little.
+
+00:11:47.900 --> 00:11:50.470
+If then we put ourselves, on our own,
+
+00:11:50.510 --> 00:11:54.090
+into a situation more stressful than the one before,
+
+00:11:54.140 --> 00:11:57.260
+I don't know to what extent that can be wise.
+
+00:11:57.550 --> 00:11:59.900
+It's something to think about.
+
+00:12:00.200 --> 00:12:01.280
+Bye.
+

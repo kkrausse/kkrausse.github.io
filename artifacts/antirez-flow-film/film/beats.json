@@ -1,0 +1,1478 @@
+{
+  "beats": [
+    {
+      "audio": 2.92,
+      "film": 4.92,
+      "phrase": "frontier large language models"
+    },
+    {
+      "audio": 5.41,
+      "film": 7.41,
+      "phrase": "extremely powerful for programming"
+    },
+    {
+      "audio": 8.54,
+      "film": 10.54,
+      "phrase": "do things that you"
+    },
+    {
+      "audio": 11.32,
+      "film": 13.32,
+      "phrase": "in very short times"
+    },
+    {
+      "audio": 14.38,
+      "film": 16.380000000000003,
+      "phrase": "not only a matter"
+    },
+    {
+      "audio": 15.79,
+      "film": 17.79,
+      "phrase": "reducing the time"
+    },
+    {
+      "audio": 21.4,
+      "film": 23.4,
+      "phrase": "many programmers"
+    },
+    {
+      "audio": 22.53,
+      "film": 24.53,
+      "phrase": "for a length of time"
+    },
+    {
+      "audio": 27.81,
+      "film": 29.81,
+      "phrase": "the function of the project"
+    },
+    {
+      "audio": 30,
+      "film": 32,
+      "phrase": "Especially in open source"
+    },
+    {
+      "audio": 33.55,
+      "film": 35.55,
+      "phrase": "a hundred people"
+    },
+    {
+      "audio": 34.82,
+      "film": 36.82,
+      "phrase": "or even three people"
+    },
+    {
+      "audio": 36.38,
+      "film": 38.38,
+      "phrase": "to throw at it"
+    },
+    {
+      "audio": 38.55,
+      "film": 40.55,
+      "phrase": "Now, if instead"
+    },
+    {
+      "audio": 40.11,
+      "film": 42.11,
+      "phrase": "do it in a week"
+    },
+    {
+      "audio": 41.54,
+      "film": 43.54,
+      "phrase": "how shall I put it"
+    },
+    {
+      "audio": 42.84,
+      "film": 44.84,
+      "phrase": "the proportions"
+    },
+    {
+      "audio": 45.11,
+      "film": 47.11,
+      "phrase": "have completely changed"
+    },
+    {
+      "audio": 47.65,
+      "film": 49.65,
+      "phrase": "a ton of things. LLMs"
+    },
+    {
+      "audio": 49,
+      "film": 51,
+      "phrase": "LLMs are extremely powerful"
+    },
+    {
+      "audio": 52.86,
+      "film": 54.86,
+      "phrase": "amply noticed"
+    },
+    {
+      "audio": 54.75,
+      "film": 56.75,
+      "phrase": "But I think that at the same time"
+    },
+    {
+      "audio": 57.07,
+      "film": 59.07,
+      "phrase": "all programmers have noticed"
+    },
+    {
+      "audio": 60.2,
+      "film": 62.2,
+      "phrase": "the toil of programming"
+    },
+    {
+      "audio": 62.65,
+      "film": 64.65,
+      "phrase": "which in some cases"
+    },
+    {
+      "audio": 64.9,
+      "film": 66.9,
+      "phrase": "but the fun too"
+    },
+    {
+      "audio": 66.06,
+      "film": 68.06,
+      "phrase": "the beauty of programming"
+    },
+    {
+      "audio": 68.9,
+      "film": 70.9,
+      "phrase": "I say the toil"
+    },
+    {
+      "audio": 73.18,
+      "film": 75.18,
+      "phrase": "I remember with Disque"
+    },
+    {
+      "audio": 74.67,
+      "film": 76.67,
+      "phrase": "I spent a month"
+    },
+    {
+      "audio": 75.66,
+      "film": 77.66,
+      "phrase": "unable to compile"
+    },
+    {
+      "audio": 78.08,
+      "film": 80.08,
+      "phrase": "pieces were missing"
+    },
+    {
+      "audio": 79.56,
+      "film": 81.56,
+      "phrase": "I kept writing them"
+    },
+    {
+      "audio": 81.8,
+      "film": 83.8,
+      "phrase": "even test whether"
+    },
+    {
+      "audio": 83.84,
+      "film": 85.84,
+      "phrase": "writing a ton of things"
+    },
+    {
+      "audio": 85.7,
+      "film": 87.7,
+      "phrase": "keeping in mind"
+    },
+    {
+      "audio": 86.69,
+      "film": 88.69,
+      "phrase": "the whole state"
+    },
+    {
+      "audio": 87.87,
+      "film": 89.87,
+      "phrase": "what I was doing"
+    },
+    {
+      "audio": 89.67,
+      "film": 91.67,
+      "phrase": "most complicated implementations"
+    },
+    {
+      "audio": 92.15,
+      "film": 94.15,
+      "phrase": "ever written in my life"
+    },
+    {
+      "audio": 93.95,
+      "film": 95.95,
+      "phrase": "And well, these are hard moments"
+    },
+    {
+      "audio": 96.26,
+      "film": 98.26,
+      "phrase": "just like the heisenbugs"
+    },
+    {
+      "audio": 100.14,
+      "film": 102.14,
+      "phrase": "why a bug shows up"
+    },
+    {
+      "audio": 102.59,
+      "film": 104.59,
+      "phrase": "very rarely"
+    },
+    {
+      "audio": 104.02,
+      "film": 106.02,
+      "phrase": "otherwise it's easy"
+    },
+    {
+      "audio": 105.7,
+      "film": 107.7,
+      "phrase": "For many years"
+    },
+    {
+      "audio": 107.7,
+      "film": 109.7,
+      "phrase": "my tagline on X"
+    },
+    {
+      "audio": 109.12,
+      "film": 111.12,
+      "phrase": "reproducible bugs are candies"
+    },
+    {
+      "audio": 112.58,
+      "film": 114.58,
+      "phrase": "reproducible bugs are candies"
+    },
+    {
+      "audio": 115.31,
+      "film": 117.31,
+      "phrase": "bit by bit you accumulate"
+    },
+    {
+      "audio": 119.86,
+      "film": 121.86,
+      "phrase": "you understand what the problem"
+    },
+    {
+      "audio": 122.59,
+      "film": 124.59,
+      "phrase": "you make the fix"
+    },
+    {
+      "audio": 124.1,
+      "film": 126.1,
+      "phrase": "Instead the bugs"
+    },
+    {
+      "audio": 125.89,
+      "film": 127.89,
+      "phrase": "sometimes there and"
+    },
+    {
+      "audio": 127.26,
+      "film": 129.26,
+      "phrase": "sometimes not"
+    },
+    {
+      "audio": 128.5,
+      "film": 130.5,
+      "phrase": "conditions you can't figure"
+    },
+    {
+      "audio": 132.01,
+      "film": 134.01,
+      "phrase": "only at the customer's"
+    },
+    {
+      "audio": 134.55,
+      "film": 136.55,
+      "phrase": "manage to observe them"
+    },
+    {
+      "audio": 137.62,
+      "film": 139.62,
+      "phrase": "a great frustration"
+    },
+    {
+      "audio": 141.25,
+      "film": 143.25,
+      "phrase": "I'll tell you the truth, have"
+    },
+    {
+      "audio": 143.78,
+      "film": 145.78,
+      "phrase": "a sigh of relief"
+    },
+    {
+      "audio": 145.2,
+      "film": 147.2,
+      "phrase": "I know many who"
+    },
+    {
+      "audio": 148.32,
+      "film": 150.32,
+      "phrase": "I was frying myself"
+    },
+    {
+      "audio": 149.95,
+      "film": 151.95,
+      "phrase": "couldn't take it anymore"
+    },
+    {
+      "audio": 152.05,
+      "film": 154.05,
+      "phrase": "Now the job has become"
+    },
+    {
+      "audio": 154.77,
+      "film": 156.77,
+      "phrase": "bearable"
+    },
+    {
+      "audio": 155.8,
+      "film": 157.8,
+      "phrase": "At the same time, though"
+    },
+    {
+      "audio": 159.11,
+      "film": 161.11,
+      "phrase": "phases of programming"
+    },
+    {
+      "audio": 160.67,
+      "film": 162.67,
+      "phrase": "incredible joy"
+    },
+    {
+      "audio": 162.3,
+      "film": 164.3,
+      "phrase": "what you have made"
+    },
+    {
+      "audio": 163.49,
+      "film": 165.49,
+      "phrase": "while you are making it"
+    },
+    {
+      "audio": 165.05,
+      "film": 167.05,
+      "phrase": "being in the flow"
+    },
+    {
+      "audio": 166.24,
+      "film": 168.24,
+      "phrase": "making those changes"
+    },
+    {
+      "audio": 167.61,
+      "film": 169.61,
+      "phrase": "seeing the effects"
+    },
+    {
+      "audio": 169.24,
+      "film": 171.24,
+      "phrase": "we have all been through it"
+    },
+    {
+      "audio": 172.74,
+      "film": 174.74,
+      "phrase": "since we were kids"
+    },
+    {
+      "audio": 174.55,
+      "film": 176.55,
+      "phrase": "our first programs"
+    },
+    {
+      "audio": 177.09,
+      "film": 179.09,
+      "phrase": "has gone down the drain"
+    },
+    {
+      "audio": 178.98,
+      "film": 180.98,
+      "phrase": "in these months"
+    },
+    {
+      "audio": 180.47,
+      "film": 182.47,
+      "phrase": "asked myself a lot"
+    },
+    {
+      "audio": 182.81,
+      "film": 184.81,
+      "phrase": "that went away"
+    },
+    {
+      "audio": 184.05,
+      "film": 186.05,
+      "phrase": "how to get it back"
+    },
+    {
+      "audio": 185.6,
+      "film": 187.6,
+      "phrase": "Yesterday, for example"
+    },
+    {
+      "audio": 191.16,
+      "film": 193.16,
+      "phrase": "the Spectrum one"
+    },
+    {
+      "audio": 196.05,
+      "film": 198.05,
+      "phrase": "the Commodore 64"
+    },
+    {
+      "audio": 197.32,
+      "film": 199.32,
+      "phrase": "with Opus 5. At"
+    },
+    {
+      "audio": 199.89,
+      "film": 201.89,
+      "phrase": "I connected it"
+    },
+    {
+      "audio": 202.58,
+      "film": 204.58,
+      "phrase": "a very large screen"
+    },
+    {
+      "audio": 205.41,
+      "film": 207.41,
+      "phrase": "overclocking the SPI"
+    },
+    {
+      "audio": 208.17,
+      "film": 210.17,
+      "phrase": "fastest communication"
+    },
+    {
+      "audio": 212.06,
+      "film": 214.06,
+      "phrase": "unfortunately is not parallel"
+    },
+    {
+      "audio": 216.05,
+      "film": 218.05,
+      "phrase": "these displays usually"
+    },
+    {
+      "audio": 218.03,
+      "film": 220.03,
+      "phrase": "a serial interface"
+    },
+    {
+      "audio": 219.65,
+      "film": 221.65,
+      "phrase": "a bit slow"
+    },
+    {
+      "audio": 220.75,
+      "film": 222.75,
+      "phrase": "Instead there are"
+    },
+    {
+      "audio": 223.64,
+      "film": 225.64,
+      "phrase": "a parallel interface"
+    },
+    {
+      "audio": 226.6,
+      "film": 228.6,
+      "phrase": "eight bits at a time"
+    },
+    {
+      "audio": 229.35,
+      "film": 231.35,
+      "phrase": "they are much faster"
+    },
+    {
+      "audio": 231.81,
+      "film": 233.81,
+      "phrase": "many more pins"
+    },
+    {
+      "audio": 233.08,
+      "film": 235.08,
+      "phrase": "the MCU that you"
+    },
+    {
+      "audio": 235.27,
+      "film": 237.27,
+      "phrase": "a Raspberry Pico"
+    },
+    {
+      "audio": 237.7,
+      "film": 239.7,
+      "phrase": "And well, basically then"
+    },
+    {
+      "audio": 242.42,
+      "film": 244.42,
+      "phrase": "partial updates, do"
+    },
+    {
+      "audio": 243.65,
+      "film": 245.65,
+      "phrase": "do the CRC"
+    },
+    {
+      "audio": 246.05,
+      "film": 248.05,
+      "phrase": "if it matches"
+    },
+    {
+      "audio": 247.07,
+      "film": 249.07,
+      "phrase": "don't update it"
+    },
+    {
+      "audio": 249.26,
+      "film": 251.26,
+      "phrase": "there can be collisions"
+    },
+    {
+      "audio": 251.5,
+      "film": 253.5,
+      "phrase": "What collisions"
+    },
+    {
+      "audio": 253.55,
+      "film": 255.55,
+      "phrase": "It can't happen in practice"
+    },
+    {
+      "audio": 257.3,
+      "film": 259.3,
+      "phrase": "It can happen once"
+    },
+    {
+      "audio": 259.91,
+      "film": 261.91,
+      "phrase": "years of use"
+    },
+    {
+      "audio": 262.6,
+      "film": 264.6,
+      "phrase": "a line that doesn't"
+    },
+    {
+      "audio": 265.01,
+      "film": 267.01,
+      "phrase": "you don't notice it"
+    },
+    {
+      "audio": 266.52,
+      "film": 268.52,
+      "phrase": "thirty, fifty frames"
+    },
+    {
+      "audio": 268.67,
+      "film": 270.67,
+      "phrase": "the refresh rate"
+    },
+    {
+      "audio": 271.29,
+      "film": 273.29,
+      "phrase": "even with this large display"
+    },
+    {
+      "audio": 273.25,
+      "film": 275.25,
+      "phrase": "at least thirty frames"
+    },
+    {
+      "audio": 275.54,
+      "film": 277.54,
+      "phrase": "with the other devices"
+    },
+    {
+      "audio": 277.75,
+      "film": 279.75,
+      "phrase": "That is, well, this part here"
+    },
+    {
+      "audio": 281.07,
+      "film": 283.07,
+      "phrase": "the level of designer"
+    },
+    {
+      "audio": 282.56,
+      "film": 284.56,
+      "phrase": "of architect, whatever"
+    },
+    {
+      "audio": 284.64,
+      "film": 286.64,
+      "phrase": "we want to call it"
+    },
+    {
+      "audio": 286.4,
+      "film": 288.4,
+      "phrase": "always hated this name"
+    },
+    {
+      "audio": 289.71,
+      "film": 291.71,
+      "phrase": "little to be done"
+    },
+    {
+      "audio": 291.78,
+      "film": 293.78,
+      "phrase": "not architect in the sense"
+    },
+    {
+      "audio": 295.22,
+      "film": 297.22,
+      "phrase": "the idea of the software architect"
+    },
+    {
+      "audio": 302.02,
+      "film": 304.02,
+      "phrase": "how things were implemented"
+    },
+    {
+      "audio": 305.51,
+      "film": 307.51,
+      "phrase": "to see this in practice"
+    },
+    {
+      "audio": 307.13,
+      "film": 309.13,
+      "phrase": "I didn't love it"
+    },
+    {
+      "audio": 309.6,
+      "film": 311.6,
+      "phrase": "can be done well"
+    },
+    {
+      "audio": 313.72,
+      "film": 315.72,
+      "phrase": "Linus is the architect"
+    },
+    {
+      "audio": 315.46,
+      "film": 317.46,
+      "phrase": "of the kernel"
+    },
+    {
+      "audio": 316.85,
+      "film": 318.85,
+      "phrase": "Fair enough"
+    },
+    {
+      "audio": 319.41,
+      "film": 321.41,
+      "phrase": "that I am more open"
+    },
+    {
+      "audio": 323.56,
+      "film": 325.56,
+      "phrase": "using this terminology"
+    },
+    {
+      "audio": 326.45,
+      "film": 328.45,
+      "phrase": "Anyway"
+    },
+    {
+      "audio": 327.04,
+      "film": 329.04,
+      "phrase": "you are the designer"
+    },
+    {
+      "audio": 328.67,
+      "film": 330.67,
+      "phrase": "the product person"
+    },
+    {
+      "audio": 331.41,
+      "film": 333.41,
+      "phrase": "of ideas"
+    },
+    {
+      "audio": 332.4,
+      "film": 334.4,
+      "phrase": "And this thing here, I'll"
+    },
+    {
+      "audio": 335.45,
+      "film": 337.45,
+      "phrase": "involves me a great deal"
+    },
+    {
+      "audio": 338.7,
+      "film": 340.7,
+      "phrase": "I made the software keyboard"
+    },
+    {
+      "audio": 340.95,
+      "film": 342.95,
+      "phrase": "I specified exactly"
+    },
+    {
+      "audio": 342.27,
+      "film": 344.27,
+      "phrase": "how I wanted it"
+    },
+    {
+      "audio": 346.56,
+      "film": 348.56,
+      "phrase": "large language models can do"
+    },
+    {
+      "audio": 348.44,
+      "film": 350.44,
+      "phrase": "autonomously"
+    },
+    {
+      "audio": 349.6,
+      "film": 351.6,
+      "phrase": "there is great room"
+    },
+    {
+      "audio": 351.41,
+      "film": 353.41,
+      "phrase": "I want it transparent"
+    },
+    {
+      "audio": 353.81,
+      "film": 355.81,
+      "phrase": "this interaction"
+    },
+    {
+      "audio": 354.97,
+      "film": 356.97,
+      "phrase": "first these two keys"
+    },
+    {
+      "audio": 356.4,
+      "film": 358.4,
+      "phrase": "it pops up"
+    },
+    {
+      "audio": 357.17,
+      "film": 359.17,
+      "phrase": "it remembers where"
+    },
+    {
+      "audio": 360.47,
+      "film": 362.47,
+      "phrase": "press on the menu"
+    },
+    {
+      "audio": 363.97,
+      "film": 365.97,
+      "phrase": "switch between one joystick"
+    },
+    {
+      "audio": 365.78,
+      "film": 367.78,
+      "phrase": "and the other. A ton"
+    },
+    {
+      "audio": 367,
+      "film": 369,
+      "phrase": "A ton of things that"
+    },
+    {
+      "audio": 369.73,
+      "film": 371.73,
+      "phrase": "one's own sensibility"
+    },
+    {
+      "audio": 371.36,
+      "film": 373.36,
+      "phrase": "for user experience"
+    },
+    {
+      "audio": 372.91,
+      "film": 374.91,
+      "phrase": "user interface"
+    },
+    {
+      "audio": 374.09,
+      "film": 376.09,
+      "phrase": "the technology"
+    },
+    {
+      "audio": 375.27,
+      "film": 377.27,
+      "phrase": "for what can be done"
+    },
+    {
+      "audio": 378.22,
+      "film": 380.22,
+      "phrase": "for these displays I am talking about"
+    },
+    {
+      "audio": 382.57,
+      "film": 384.57,
+      "phrase": "for these displays I am talking about"
+    },
+    {
+      "audio": 385.47,
+      "film": 387.47,
+      "phrase": "written several drivers"
+    },
+    {
+      "audio": 387.49,
+      "film": 389.49,
+      "phrase": "read the datasheets"
+    },
+    {
+      "audio": 389.63,
+      "film": 391.63,
+      "phrase": "in the last years"
+    },
+    {
+      "audio": 391.77,
+      "film": 393.77,
+      "phrase": "those last two years"
+    },
+    {
+      "audio": 393.79,
+      "film": 395.79,
+      "phrase": "didn't work on Redis"
+    },
+    {
+      "audio": 397.07,
+      "film": 399.07,
+      "phrase": "the embedded world"
+    },
+    {
+      "audio": 399.4,
+      "film": 401.4,
+      "phrase": "So this thing here is beautiful"
+    },
+    {
+      "audio": 401.82,
+      "film": 403.82,
+      "phrase": "the same way as programming"
+    },
+    {
+      "audio": 404.23,
+      "film": 406.23,
+      "phrase": "in a different way"
+    },
+    {
+      "audio": 405.61,
+      "film": 407.61,
+      "phrase": "but the flow is there"
+    },
+    {
+      "audio": 407.45,
+      "film": 409.45,
+      "phrase": "What is the problem"
+    },
+    {
+      "audio": 409.8,
+      "film": 411.8,
+      "phrase": "The pauses"
+    },
+    {
+      "audio": 411.75,
+      "film": 413.75,
+      "phrase": "The problem is the pauses"
+    },
+    {
+      "audio": 414.5,
+      "film": 416.5,
+      "phrase": "The pauses that pass"
+    },
+    {
+      "audio": 417.74,
+      "film": 419.74,
+      "phrase": "to the LLM, to the agent"
+    },
+    {
+      "audio": 421.42,
+      "film": 423.42,
+      "phrase": "a given result"
+    },
+    {
+      "audio": 424.15,
+      "film": 426.15,
+      "phrase": "you check for a moment"
+    },
+    {
+      "audio": 429.26,
+      "film": 431.26,
+      "phrase": "designed it"
+    },
+    {
+      "audio": 431.34,
+      "film": 433.34,
+      "phrase": "expressed it in the prompt"
+    },
+    {
+      "audio": 435.48,
+      "film": 437.48,
+      "phrase": "it has to churn"
+    },
+    {
+      "audio": 436.52,
+      "film": 438.52,
+      "phrase": "for a few minutes"
+    },
+    {
+      "audio": 438.01,
+      "film": 440.01,
+      "phrase": "meanwhile what do you do"
+    },
+    {
+      "audio": 441.02,
+      "film": 443.02,
+      "phrase": "in a previous video"
+    },
+    {
+      "audio": 444.37,
+      "film": 446.37,
+      "phrase": "defend myself from these pauses"
+    },
+    {
+      "audio": 448.23,
+      "film": 450.23,
+      "phrase": "another activity"
+    },
+    {
+      "audio": 451.15,
+      "film": 453.15,
+      "phrase": "for example writing"
+    },
+    {
+      "audio": 453.42,
+      "film": 455.42,
+      "phrase": "I am writing little"
+    },
+    {
+      "audio": 457.45,
+      "film": 459.45,
+      "phrase": "Luckily I agreed"
+    },
+    {
+      "audio": 459.19,
+      "film": 461.19,
+      "phrase": "the preface of a book"
+    },
+    {
+      "audio": 460.87,
+      "film": 462.87,
+      "phrase": "a friend of mine"
+    },
+    {
+      "audio": 462.88,
+      "film": 464.88,
+      "phrase": "writing this preface"
+    },
+    {
+      "audio": 465.03,
+      "film": 467.03,
+      "phrase": "using these moments"
+    },
+    {
+      "audio": 469.15,
+      "film": 471.15,
+      "phrase": "fairly long pauses"
+    },
+    {
+      "audio": 471.12,
+      "film": 473.12,
+      "phrase": "a completely different thing"
+    },
+    {
+      "audio": 474.52,
+      "film": 476.52,
+      "phrase": "doesn't weigh on me"
+    },
+    {
+      "audio": 476.15,
+      "film": 478.15,
+      "phrase": "But well, the point is"
+    },
+    {
+      "audio": 478.8,
+      "film": 480.8,
+      "phrase": "become much faster"
+    },
+    {
+      "audio": 480.06,
+      "film": 482.06,
+      "phrase": "almost instantaneous"
+    },
+    {
+      "audio": 485.54,
+      "film": 487.54,
+      "phrase": "replicate these effects"
+    },
+    {
+      "audio": 487.05,
+      "film": 489.05,
+      "phrase": "then on the code"
+    },
+    {
+      "audio": 491.28,
+      "film": 493.28,
+      "phrase": "the madness of using Rust"
+    },
+    {
+      "audio": 492.98,
+      "film": 494.98,
+      "phrase": "I'm joking, guys"
+    },
+    {
+      "audio": 496.88,
+      "film": 498.88,
+      "phrase": "allow me that"
+    },
+    {
+      "audio": 498.59,
+      "film": 500.59,
+      "phrase": "sixty-four years"
+    },
+    {
+      "audio": 501.61,
+      "film": 503.61,
+      "phrase": "the compilation cycle"
+    },
+    {
+      "audio": 503,
+      "film": 505,
+      "phrase": "both of C"
+    },
+    {
+      "audio": 504.07,
+      "film": 506.07,
+      "phrase": "the interpreted languages"
+    },
+    {
+      "audio": 506.78,
+      "film": 508.78,
+      "phrase": "at a high level"
+    },
+    {
+      "audio": 508.1,
+      "film": 510.1,
+      "phrase": "less and less"
+    },
+    {
+      "audio": 511,
+      "film": 513,
+      "phrase": "With Go too"
+    },
+    {
+      "audio": 512.68,
+      "film": 514.68,
+      "phrase": "is very fast"
+    },
+    {
+      "audio": 514.21,
+      "film": 516.21,
+      "phrase": "see the effects very quickly"
+    },
+    {
+      "audio": 516.4,
+      "film": 518.4,
+      "phrase": "you can iterate"
+    },
+    {
+      "audio": 518.99,
+      "film": 520.99,
+      "phrase": "you do get into the flow"
+    },
+    {
+      "audio": 522.27,
+      "film": 524.27,
+      "phrase": "don't write a line of code"
+    },
+    {
+      "audio": 524.08,
+      "film": 526.08,
+      "phrase": "you are in the flow"
+    },
+    {
+      "audio": 525.69,
+      "film": 527.69,
+      "phrase": "the pauses kill"
+    },
+    {
+      "audio": 533.2,
+      "film": 535.2,
+      "phrase": "do the refresh"
+    },
+    {
+      "audio": 536.67,
+      "film": 538.67,
+      "phrase": "takes much time"
+    },
+    {
+      "audio": 539.93,
+      "film": 541.93,
+      "phrase": "when the models become faster"
+    },
+    {
+      "audio": 542.02,
+      "film": 544.02,
+      "phrase": "this thing will change"
+    },
+    {
+      "audio": 543.95,
+      "film": 545.95,
+      "phrase": "There is another matter"
+    },
+    {
+      "audio": 546.4,
+      "film": 548.4,
+      "phrase": "Since Opus 5"
+    },
+    {
+      "audio": 547.61,
+      "film": 549.61,
+      "phrase": "how do you say it"
+    },
+    {
+      "audio": 550.87,
+      "film": 552.87,
+      "phrase": "that is, basically"
+    },
+    {
+      "audio": 553.14,
+      "film": 555.14,
+      "phrase": "tear the words out"
+    },
+    {
+      "audio": 556.55,
+      "film": 558.55,
+      "phrase": "it tells you nothing"
+    },
+    {
+      "audio": 558.04,
+      "film": 560.04,
+      "phrase": "until the end"
+    },
+    {
+      "audio": 559.64,
+      "film": 561.64,
+      "phrase": "in the session by now"
+    },
+    {
+      "audio": 562.91,
+      "film": 564.91,
+      "phrase": "every time you undertake"
+    },
+    {
+      "audio": 566.12,
+      "film": 568.12,
+      "phrase": "announce it"
+    },
+    {
+      "audio": 567.69,
+      "film": 569.69,
+      "phrase": "I consume more tokens"
+    },
+    {
+      "audio": 571.35,
+      "film": 573.35,
+      "phrase": "I have to see"
+    },
+    {
+      "audio": 573.43,
+      "film": 575.43,
+      "phrase": "what it is doing, because"
+    },
+    {
+      "audio": 575.96,
+      "film": 577.96,
+      "phrase": "bit by bit which steps"
+    },
+    {
+      "audio": 579.25,
+      "film": 581.25,
+      "phrase": "enter the flow"
+    },
+    {
+      "audio": 583.29,
+      "film": 585.29,
+      "phrase": "whether the direction taken"
+    },
+    {
+      "audio": 585.06,
+      "film": 587.06,
+      "phrase": "is the wrong one"
+    },
+    {
+      "audio": 587.27,
+      "film": 589.27,
+      "phrase": "you re-prompt"
+    },
+    {
+      "audio": 590.49,
+      "film": 592.49,
+      "phrase": "not what I wanted"
+    },
+    {
+      "audio": 593.33,
+      "film": 595.33,
+      "phrase": "what I was looking for"
+    },
+    {
+      "audio": 595.1,
+      "film": 597.1,
+      "phrase": "Do it this way, rather"
+    },
+    {
+      "audio": 596.41,
+      "film": 598.41,
+      "phrase": "rather do it that way"
+    },
+    {
+      "audio": 598.55,
+      "film": 600.55,
+      "phrase": "But also sometimes"
+    },
+    {
+      "audio": 603.43,
+      "film": 605.43,
+      "phrase": "a lot of visual feedback"
+    },
+    {
+      "audio": 605.6,
+      "film": 607.6,
+      "phrase": "If I know what it"
+    },
+    {
+      "audio": 608.13,
+      "film": 610.13,
+      "phrase": "what happens on the display"
+    },
+    {
+      "audio": 611.67,
+      "film": 613.67,
+      "phrase": "there is flickering"
+    },
+    {
+      "audio": 614.53,
+      "film": 616.53,
+      "phrase": "maybe you should try"
+    },
+    {
+      "audio": 618.73,
+      "film": 620.73,
+      "phrase": "megahertz"
+    },
+    {
+      "audio": 620.27,
+      "film": 622.27,
+      "phrase": "loses a bit of information"
+    },
+    {
+      "audio": 622.13,
+      "film": 624.13,
+      "phrase": "even if it usually works"
+    },
+    {
+      "audio": 625.07,
+      "film": 627.07,
+      "phrase": "out of sync"
+    },
+    {
+      "audio": 625.93,
+      "film": 627.93,
+      "phrase": "et cetera, et cetera"
+    },
+    {
+      "audio": 627.65,
+      "film": 629.65,
+      "phrase": "Obviously, besides the activity"
+    },
+    {
+      "audio": 630.73,
+      "film": 632.73,
+      "phrase": "a very interesting activity"
+    },
+    {
+      "audio": 633.8,
+      "film": 635.8,
+      "phrase": "in the moments of pause"
+    },
+    {
+      "audio": 636.53,
+      "film": 638.53,
+      "phrase": "while the agent is running"
+    },
+    {
+      "audio": 640,
+      "film": 642,
+      "phrase": "No, I'm joking"
+    },
+    {
+      "audio": 642.25,
+      "film": 644.25,
+      "phrase": "if you feel like it"
+    },
+    {
+      "audio": 644.07,
+      "film": 646.07,
+      "phrase": "it is writing code by hand"
+    },
+    {
+      "audio": 646.35,
+      "film": 648.35,
+      "phrase": "I was saying"
+    },
+    {
+      "audio": 647.24,
+      "film": 649.24,
+      "phrase": "that in my opinion"
+    },
+    {
+      "audio": 650.61,
+      "film": 652.61,
+      "phrase": "it is no longer useful"
+    },
+    {
+      "audio": 652.25,
+      "film": 654.25,
+      "phrase": "remains beautiful and interesting"
+    },
+    {
+      "audio": 656.44,
+      "film": 658.44,
+      "phrase": "writing of meaningful code"
+    },
+    {
+      "audio": 658.85,
+      "film": 660.85,
+      "phrase": "to learn more about programming"
+    },
+    {
+      "audio": 663.31,
+      "film": 665.31,
+      "phrase": "particularly beautiful"
+    },
+    {
+      "audio": 666.1,
+      "film": 668.1,
+      "phrase": "So you can do it this way"
+    },
+    {
+      "audio": 668.75,
+      "film": 670.75,
+      "phrase": "I know, I know what many"
+    },
+    {
+      "audio": 675.87,
+      "film": 677.87,
+      "phrase": "several projects"
+    },
+    {
+      "audio": 676.98,
+      "film": 678.98,
+      "phrase": "in several sessions"
+    },
+    {
+      "audio": 678.6,
+      "film": 680.6,
+      "phrase": "This thing can be done"
+    },
+    {
+      "audio": 681.45,
+      "film": 683.45,
+      "phrase": "you break the flow"
+    },
+    {
+      "audio": 683.96,
+      "film": 685.96,
+      "phrase": "by definition"
+    },
+    {
+      "audio": 686.12,
+      "film": 688.12,
+      "phrase": "continuously within the same project"
+    },
+    {
+      "audio": 688.95,
+      "film": 690.95,
+      "phrase": "If you do context switching"
+    },
+    {
+      "audio": 690.98,
+      "film": 692.98,
+      "phrase": "you lose the flow"
+    },
+    {
+      "audio": 692.36,
+      "film": 694.36,
+      "phrase": "but you optimize"
+    },
+    {
+      "audio": 693.96,
+      "film": 695.96,
+      "phrase": "no longer have dead time"
+    },
+    {
+      "audio": 698.88,
+      "film": 700.88,
+      "phrase": "going crazy"
+    },
+    {
+      "audio": 701.43,
+      "film": 703.43,
+      "phrase": "automation must also"
+    },
+    {
+      "audio": 703.75,
+      "film": 705.75,
+      "phrase": "catch our breath"
+    },
+    {
+      "audio": 707.68,
+      "film": 709.68,
+      "phrase": "on our own"
+    },
+    {
+      "audio": 709.67,
+      "film": 711.67,
+      "phrase": "more stressful"
+    },
+    {
+      "audio": 711.05,
+      "film": 713.05,
+      "phrase": "the one before"
+    },
+    {
+      "audio": 713.04,
+      "film": 715.04,
+      "phrase": "to what extent"
+    },
+    {
+      "audio": 715.94,
+      "film": 717.94,
+      "phrase": "something to think about"
+    },
+    {
+      "audio": 718.2,
+      "film": 720.2,
+      "phrase": "Bye"
+    }
+  ],
+  "leadSeconds": 2,
+  "pans": [
+    56.75,
+    95.95,
+    157.8,
+    187.6,
+    279.75,
+    334.4,
+    409.45,
+    478.15,
+    545.95,
+    629.65,
+    670.75
+  ]
+}
